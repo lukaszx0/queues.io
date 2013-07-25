@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'bundler/setup'
+require 'yaml'
+require 'tilt/erb'
+
+context  = Class.new do
+  def self.projects
+    YAML.load_file("projects.yml")["projects"]
+  end
+
+  # Helpers
+  def self.link_to(text, href)
+    "<a href=\"#{href}\">#{text}</a>"
+  end
+end
+
+File.open("public/index.html", "w+"){ |f| f.write(Tilt::ERBTemplate.new("templates/index.html.erb").render(context)) }
+puts "=> public/index.html processed"

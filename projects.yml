@@ -1,0 +1,57 @@
+projects:
+  resque:
+    name: Resque
+    url: http://resquework.org/
+    summary: "A rock-solid job queue, written in Ruby, backed by Redis."
+    links:
+      - text: Introducing Resque at GitHub.com blog
+        url: https://github.com/blog/542-introducing-resque
+      - text: Queuing in Ruby with Redis and Resque at Heroku Center
+        url: https://devcenter.heroku.com/articles/queuing-ruby-resque
+      - text: "Do YOU KNOW Resque"
+        url: http://rubylearning.com/blog/2010/11/08/do-you-know-resque/
+  delayed_job:
+    name: Delayed::Job
+    url: https://github.com/collectiveidea/delayed_job
+    summary: Database based asynchronously priority queue system
+    links:
+      - text: "#171 Delayed Job - RailsCasts"
+        url: http://railscasts.com/episodes/171-delayed-job
+  beanstalkd:
+    name: Beanstalkd
+    url: http://kr.github.io/beanstalkd/
+    summary: "Beanstalk is a simple, fast work queue."
+    links:
+      - text: "#243 Beanstalkd and Stalker - RailsCasts"
+        url: http://railscasts.com/episodes/243-beanstalkd-and-stalker
+      - text: "What are the advantages and disadvantages of Beanstalkd as a work queue? at Quora"
+        url: http://www.quora.com/Beanstalk-work-queue/What-are-the-advantages-and-disadvantages-of-Beanstalkd-as-a-work-queue
+  sqs:
+    name: Amazon Simple Queue Service (Amazon SQS)
+    url: http://aws.amazon.com/sqs/
+    summary: "Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, fully managed queue service."
+    links:
+      - text: "What are the advantages and disadvantages of Beanstalkd as a work queue? at Quora"
+        url: http://www.quora.com/Beanstalk-work-queue/What-are-the-advantages-and-disadvantages-of-Beanstalkd-as-a-work-queue
+  kafka:
+    name: Apache Kafka
+    url: http://kafka.apache.org/
+    summary: "Apache Kafka is publish-subscribe messaging rethought as a distributed commit log."
+    links:
+      - text: "Kafka: The Great Logfile in the Sky by John Pignata (slides)"
+        url: https://speakerdeck.com/jpignata/kafka-the-great-logfile-in-the-sky
+  nsq:
+    name: NSQ
+    url: https://github.com/bitly/nsq
+    summary: realtime distributed message processing at scale
+    links:
+      - text: "NSQ: realtime distributed message processing at scale at bit.ly blog"
+        url: http://word.bitly.com/post/33232969144/nsq
+  zmq:
+    name: ZeroMQ
+    url: http://www.zeromq.org/
+    summary: "The Intelligent Transport Layer"
+    links:
+      - text: "Ømq & Services @ Chartboost by Kenneth Ballenegger (slides)"
+        url: https://speakerdeck.com/kballenegger/omq-and-services-at-chartboost
+      

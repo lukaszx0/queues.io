@@ -1,0 +1,10 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    tilt (2.0.0.beta1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  tilt (= 2.0.0.beta1)
