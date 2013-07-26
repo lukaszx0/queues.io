@@ -16,6 +16,18 @@ static html file using:
 $ bin/compile
 ```
 
+# Deployment
+
+```
+$ bin/deploy
+```
+
+You need to install and configure `s3cmd` utilty first:
+
+```
+$ brew install s3cmd
+```
+
 # Contributing
 
 I would like this to be a community effort. If there's any lib missing, or you
