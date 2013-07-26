@@ -3,6 +3,7 @@ require 'rubygems'
 require 'bundler/setup'
 require 'yaml'
 require 'tilt/erb'
+require 'tilt/sass'
 
 context  = Class.new do
   def self.projects
@@ -17,3 +18,5 @@ end
 
 File.open("public/index.html", "w+"){ |f| f.write(Tilt::ERBTemplate.new("templates/index.html.erb").render(context)) }
 puts "=> public/index.html processed"
+File.open("public/css/main.css", "w+"){ |f| f.write(Tilt.new("templates/css/main.css.scss").render) }
+puts "=> public/css/main.css.scss"
