@@ -66,6 +66,8 @@ projects:
         url: http://blip.tv/pycon-us-videos-2009-2010-2011/pycon-2011-advanced-network-architectures-with-zeromq-4896861
       - text: "Ømq & Services @ Chartboost by Kenneth Ballenegger (slides)"
         url: https://speakerdeck.com/kballenegger/omq-and-services-at-chartboost
+      - text: "Gearman and ZeroMQ, two different animals"
+        url: https://speakerdeck.com/coudenysj/gearman-and-zeromq-two-different-animals
   sidekiq:
     name: Sidekiq
     url: http://sidekiq.org/
@@ -82,3 +84,10 @@ projects:
         url: http://robey.lag.net/2008/11/27/scarling-to-kestrel.html
       - text: "Kestrel in Production at Papertrail"
         url: http://blog.scoutapp.com/articles/2012/08/15/kestrel-monitoring
+  gearman:
+    name: Gearman
+    summary: Gearman Job Server
+    url: http://gearman.org
+    links:
+      - text: "Gearman and ZeroMQ, two different animals"
+        url: https://speakerdeck.com/coudenysj/gearman-and-zeromq-two-different-animals
