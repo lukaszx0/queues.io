@@ -54,4 +54,11 @@ projects:
     links:
       - text: "Ømq & Services @ Chartboost by Kenneth Ballenegger (slides)"
         url: https://speakerdeck.com/kballenegger/omq-and-services-at-chartboost
+  sidekiq:
+    name: Sidekiq
+    url: http://sidekiq.org/
+    summary: "Simple, efficient background processing for Ruby."
+    links:
+      - text: "#366 Sidekiq - RailsCasts"
+        url: http://railscasts.com/episodes/366-sidekiq
       
