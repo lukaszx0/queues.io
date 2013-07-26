@@ -29,12 +29,45 @@
     *zoom: 1;
 }
 
+//colors: http://www.colourlovers.com/palette/2964362/Alice_in_Wonderland
+
+$light_blue: #466B82;
+$dark_blue: #67A0AB;
+
 body {
-  
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  background: #EBEEF5;
+  padding: 20px;
+}
+
+a {
+  color: #67A0AB;
+  text-decoration: none;
+  font-weight: normal;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+header {
+  margin-bottom: 50px;
+  h1 {
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    color: $light_blue;
+    font-family: 'Bree Serif', serif;
+    font-size: 64px;
+  }
+  sub {
+    color: $dark_blue;
+    font-size: 15px;
+  }
 }
 
 footer {
   text-align: right;
+  color: #ddd;
 }
 
 #wrapper {
@@ -47,4 +80,17 @@ footer {
   top: 0;
   right: 0;
   border: 0;
+}
+
+.projects {
+  dt {
+    span {
+      padding: 5px;
+      border-bottom: 2px solid #ddd;
+      font-weight: bold;
+    }
+  }
+  dd {
+    margin-bottom: 40px;
+  }
 }
