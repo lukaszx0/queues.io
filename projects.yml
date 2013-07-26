@@ -38,8 +38,14 @@ projects:
     url: http://kafka.apache.org/
     summary: "Apache Kafka is publish-subscribe messaging rethought as a distributed commit log."
     links:
+      - text: "Open-sourcing Kafka, LinkedIn’s distributed message queue"
+        url: http://blog.linkedin.com/2011/01/11/open-source-linkedin-kafka/
       - text: "Kafka: The Great Logfile in the Sky by John Pignata (slides)"
         url: https://speakerdeck.com/jpignata/kafka-the-great-logfile-in-the-sky
+      - text: "Apache Kafka - distributed publish-subscribe messaging system - Morten Kjetland (video)"
+        url: https://vimeo.com/62298867
+      - text: "Running a Multi-Broker Apache Kafka 0.8 Cluster on a Single Node"
+        url: http://www.michael-noll.com/blog/2013/03/13/running-a-multi-broker-apache-kafka-cluster-on-a-single-node/
   nsq:
     name: NSQ
     url: https://github.com/bitly/nsq
@@ -47,11 +53,17 @@ projects:
     links:
       - text: "NSQ: realtime distributed message processing at scale at bit.ly blog"
         url: http://word.bitly.com/post/33232969144/nsq
+      - text: "NSQ - NYC Golang Meetup by Matt Reiferson (slides)"
+        url: https://speakerdeck.com/snakes/nsq-nyc-golang-meetup
+      - text: "Stream Processing: Philosophy, Concepts, and Technologies (slides)"
+        url: https://speakerdeck.com/danielhfrank/stream-processing-philosophy-concepts-and-technologies
   zmq:
     name: ZeroMQ
     url: http://www.zeromq.org/
     summary: "The Intelligent Transport Layer"
     links:
+      - text: "PyCon 2011: Advanced Network Architectures With ZeroMQ (video)"
+        url: http://blip.tv/pycon-us-videos-2009-2010-2011/pycon-2011-advanced-network-architectures-with-zeromq-4896861
       - text: "Ømq & Services @ Chartboost by Kenneth Ballenegger (slides)"
         url: https://speakerdeck.com/kballenegger/omq-and-services-at-chartboost
   sidekiq:
