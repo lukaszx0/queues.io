@@ -73,4 +73,12 @@ projects:
     links:
       - text: "#366 Sidekiq - RailsCasts"
         url: http://railscasts.com/episodes/366-sidekiq
-      
+  kestrel:
+    name: Kestrel
+    summary: "simple, distributed message queue system"
+    url: http://robey.github.io/kestrel/
+    links:
+      - text: "Scarling » Kestrel - Robey"
+        url: http://robey.lag.net/2008/11/27/scarling-to-kestrel.html
+      - text: "Kestrel in Production at Papertrail"
+        url: http://blog.scoutapp.com/articles/2012/08/15/kestrel-monitoring
