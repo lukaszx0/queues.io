@@ -33,7 +33,18 @@ body {
   
 }
 
+footer {
+  text-align: right;
+}
+
 #wrapper {
   margin: 0px auto;
   width: 970px;
+}
+
+.github-ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
 }
