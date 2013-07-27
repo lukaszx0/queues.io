@@ -111,6 +111,12 @@ projects:
         url: http://www.rabbitmq.com/getstarted.html
       - text: Smalltalk on RabbitMQ and Nanite
         url: http://www.paperplanes.de/2009/7/8/smalltalk_on_rabbitmq_and_nanite.html
+      - text: "22 Billion Served: Julien Genestoux of Superfeedr"
+        url: http://blog.gopivotal.com/case-studies-2/22-billion-served-julien-genestoux-of-superfeedr
+      - text: Lift AMQP with RabbitMQ and Scala – Tutorial and Screencast
+        url: http://timperrett.com/2009/05/22/lift-amqp-with-rabbitmq-and-scala-tutorial-and-screencast/
+      - text: High powered messaging with RabbitMQ
+        url: http://www.slideshare.net/carrja99/high-powered-messaging-with
   celery:
     name: Celery
     summary: Distributed Task Queue
