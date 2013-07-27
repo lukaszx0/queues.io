@@ -118,3 +118,5 @@ projects:
     links:
       - text: "Using Celery for queuing requests"
         url: https://blog.serverdensity.com/using-celery-for-queuing-requests/
+      - text: "An Introduction to Celery by Gilang Chandrasa (slides)"
+        url: https://speakerdeck.com/gchandrasa/an-introduction-to-celery
