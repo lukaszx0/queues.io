@@ -68,6 +68,8 @@ projects:
         url: https://speakerdeck.com/kballenegger/omq-and-services-at-chartboost
       - text: "Gearman and ZeroMQ, two different animals"
         url: https://speakerdeck.com/coudenysj/gearman-and-zeromq-two-different-animals
+      - text: "The Architecture of Open Source Applications (Volume 2): ZeroMQ"
+        url: http://www.aosabook.org/en/zeromq.html
   sidekiq:
     name: Sidekiq
     url: http://sidekiq.org/
