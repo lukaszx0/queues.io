@@ -91,3 +91,12 @@ projects:
     links:
       - text: "Gearman and ZeroMQ, two different animals"
         url: https://speakerdeck.com/coudenysj/gearman-and-zeromq-two-different-animals
+  queue_classic:
+    name: queue_classic
+    summary: "Simple, efficient worker queue for Ruby & PostgreSQL."
+    url: https://github.com/ryandotsmith/queue_classic
+    links:
+      - text: "queue_classic by Ryan Smith (slides)"
+        url: http://dl.dropboxusercontent.com/u/1579953/talks/queue_classic.pdf
+      - text: "#344 Queue Classic - RailsCasts"
+        url: http://railscasts.com/episodes/344-queue-classic
