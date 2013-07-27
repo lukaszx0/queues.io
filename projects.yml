@@ -102,3 +102,19 @@ projects:
         url: http://dl.dropboxusercontent.com/u/1579953/talks/queue_classic.pdf
       - text: "#344 Queue Classic - RailsCasts"
         url: http://railscasts.com/episodes/344-queue-classic
+  rabbitmq:
+    name: RabbitMQ
+    summary: Robust messaging for applications
+    url: http://www.rabbitmq.com/
+    links:
+      - text: RabbitMQ tutorials
+        url: http://www.rabbitmq.com/getstarted.html
+      - text: Smalltalk on RabbitMQ and Nanite
+        url: http://www.paperplanes.de/2009/7/8/smalltalk_on_rabbitmq_and_nanite.html
+  celery:
+    name: Celery
+    summary: Distributed Task Queue
+    url: http://www.celeryproject.org/
+    links:
+      - text: "Using Celery for queuing requests"
+        url: https://blog.serverdensity.com/using-celery-for-queuing-requests/
