@@ -7,7 +7,7 @@ require 'tilt/sass'
 
 context  = Class.new do
   def self.projects
-    YAML.load_file("projects.yml")["projects"]
+    YAML.load_file("projects.yml")["projects"].sort_by{ |symbol, project| symbol }
   end
 
   # Helpers

@@ -27,7 +27,7 @@ projects:
       - text: "What are the advantages and disadvantages of Beanstalkd as a work queue? at Quora"
         url: http://www.quora.com/Beanstalk-work-queue/What-are-the-advantages-and-disadvantages-of-Beanstalkd-as-a-work-queue
   sqs:
-    name: Amazon Simple Queue Service (Amazon SQS)
+    name: SQS - Amazon Simple Queue Service
     url: http://aws.amazon.com/sqs/
     summary: "Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, fully managed queue service."
     links:
