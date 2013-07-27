@@ -133,3 +133,12 @@ projects:
     links:
       - text: "Why and how Pricing Assistant migrated from Celery to RQ - Paris.py #2"
         url: http://www.slideshare.net/sylvinus/why-and-how-pricing-assistant-migrated-from-celery-to-rq-parispy-2
+  darner:
+    name: Darner
+    summary: "simple, lightweight message queue"
+    url: https://github.com/wavii/darner
+    links:
+      - text: "Darner, Wavii’s new queue server: 10x faster, 10x smaller"
+        url: http://wavii.wordpress.com/2012/08/13/darner-waviis-new-queue-server-10x-faster-10x-smaller/
+      - text: "How do Darner and RabbitMQ compare? at Quora"
+        url: http://www.quora.com/Message-Queueing/How-do-Darner-and-RabbitMQ-compare
