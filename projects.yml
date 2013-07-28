@@ -112,7 +112,7 @@ projects:
     summary: Gearman Job Server
     url: http://gearman.org
     tags:
-      - pearl
+      - perl
     links:
       - text: "What Powers Instagram: Hundreds of Instances, Dozens of Technologies"
         url: http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances-dozens-of
