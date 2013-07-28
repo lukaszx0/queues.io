@@ -92,6 +92,24 @@ footer {
       padding: 5px;
       border-bottom: 2px solid #ddd;
       font-weight: bold;
+      display: block;
+      float: left;
+    }
+    .tags {
+      list-style-type: none;
+      margin: 0 10px;
+      padding: 7px 0;
+      float: left;
+      li {
+        display: block;
+        float: left;
+        margin-right: 5px;
+        background: #ccc;
+        color: black;
+        font-size: 11px;
+        padding: 3px 5px;
+        border-radius: 5px;
+      }
     }
   }
   dd {

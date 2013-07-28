@@ -38,14 +38,24 @@
 
         <dl>
           <% projects.each do |symbol, project| %>
-            <dt>
+            <dt class="clearfix">
               <span><%= project["name"] %> <a href="<%= project["url"] %>"><%= project["url"] %></a></span>
+
+              <% if !project["tags"].nil? %>
+                <ul class="tags">
+                  <% project["tags"].each do |tag| %>
+                    <li><%= tag %></li>
+                  <% end %>
+                </ul>
+              <% end %>
             </dt>
             <dd class="<%= symbol %>">
               <p><%= project["summary"] %></p>
               <ul class="links">
                 <% project["links"].each do |link| %>
-                  <li><%= link_to(link["text"], link["url"]) %></li>
+                  <li>
+                    <%= link_to(link["text"], link["url"]) %>
+                  </li>
                 <% end %>
               </ul>
             </dd>
