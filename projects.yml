@@ -190,3 +190,13 @@ projects:
     links:
       - text: "Using IronMQ for Delayed Processing and Increasing Scale"
         url: http://developer.rackspace.com/blog/using-ironmq.html
+  restmq:
+    name: RestMQ
+    summary: "RestMQ is a message queue which uses HTTP as transport, JSON to format a minimalist protocol and is organized as REST resources. It stands on the shoulder of giants, built over Python, Twisted, Cyclone (a Tornado implementation over twisted) and Redis."
+    url: http://restmq.com/
+    tags:
+      - python
+      - redis
+    links:
+      - text: "RestMQ - HTTP/Redis based Message Queue (slides)"
+        url: http://www.slideshare.net/gleicon/restmq-httpredis-based-message-queue
