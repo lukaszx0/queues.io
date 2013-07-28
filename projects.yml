@@ -91,6 +91,8 @@ projects:
     summary: Gearman Job Server
     url: http://gearman.org
     links:
+      - text: "What Powers Instagram: Hundreds of Instances, Dozens of Technologies"
+        url: http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances-dozens-of
       - text: "Gearman and ZeroMQ, two different animals"
         url: https://speakerdeck.com/coudenysj/gearman-and-zeromq-two-different-animals
   queue_classic:
