@@ -147,7 +147,7 @@ projects:
         url: http://timperrett.com/2009/05/22/lift-amqp-with-rabbitmq-and-scala-tutorial-and-screencast/
       - text: High powered messaging with RabbitMQ
         url: http://www.slideshare.net/carrja99/high-powered-messaging-with
-      - text: RabbitMQ in Action: Distributed Messaging for Everyone
+      - text: "RabbitMQ in Action: Distributed Messaging for Everyone"
         url: http://www.amazon.com/RabbitMQ-Action-Distributed-Messaging-Everyone/dp/1935182978
   celery:
     name: Celery
