@@ -146,3 +146,10 @@ projects:
         url: http://wavii.wordpress.com/2012/08/13/darner-waviis-new-queue-server-10x-faster-10x-smaller/
       - text: "How do Darner and RabbitMQ compare? at Quora"
         url: http://www.quora.com/Message-Queueing/How-do-Darner-and-RabbitMQ-compare
+  ironmq:
+    name: IronMQ
+    summary: "An easy-to-use highly available message queuing service"
+    url: http://www.iron.io/mq
+    links:
+      - text: "Using IronMQ for Delayed Processing and Increasing Scale"
+        url: http://developer.rackspace.com/blog/using-ironmq.html
