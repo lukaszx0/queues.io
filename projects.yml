@@ -13,6 +13,8 @@ projects:
         url: https://devcenter.heroku.com/articles/queuing-ruby-resque
       - text: "Do YOU KNOW Resque"
         url: http://rubylearning.com/blog/2010/11/08/do-you-know-resque/
+      - text: How Queuing With Resque Works
+        url: http://girders.org/blog/2011/10/30/how-queuing-with-resque-works/
   delayed_job:
     name: Delayed::Job
     url: https://github.com/collectiveidea/delayed_job
@@ -200,3 +202,4 @@ projects:
     links:
       - text: "RestMQ - HTTP/Redis based Message Queue (slides)"
         url: http://www.slideshare.net/gleicon/restmq-httpredis-based-message-queue
+
