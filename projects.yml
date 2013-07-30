@@ -211,4 +211,16 @@ projects:
     links:
       - text: "Introduction to Messaging With Apache ActiveMQ - Bruce Snyder (video)"
         url: https://vimeo.com/12654513
-
+  marconi:
+    name: Marconi
+    summary: "Marconi is OpenStack service providing queueing/SQS/producer-consumer and notification/SNS/pub-sub services with HTTP and ZeroMQ transports and Stack integration."
+    url: https://wiki.openstack.org/wiki/Marconi#OpenStack_Queuing_and_Notification_Service
+    tags:
+      - openstack
+      - python
+      - mongodb
+      - sqlite
+      - durable
+    links:
+      - text: "OpenStack Summit 2013 Project Overview: Marconi Queueing and Notification Service"
+        url: "http://www.youtube.com/watch?v=henTTZWtt2k"
