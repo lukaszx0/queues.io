@@ -213,8 +213,8 @@ projects:
         url: https://vimeo.com/12654513
   marconi:
     name: Marconi
-    summary: "Marconi is OpenStack service providing queueing/SQS/producer-consumer and notification/SNS/pub-sub services with HTTP and ZeroMQ transports and Stack integration."
-    url: https://wiki.openstack.org/wiki/Marconi#OpenStack_Queuing_and_Notification_Service
+    summary: "Marconi is a queuing and notification service made by and for OpenStack, but not only for it"
+    url: https://wiki.openstack.org/wiki/Marconi
     tags:
       - openstack
       - python
@@ -224,3 +224,5 @@ projects:
     links:
       - text: "OpenStack Summit 2013 Project Overview: Marconi Queueing and Notification Service"
         url: "http://www.youtube.com/watch?v=henTTZWtt2k"
+      - text: "Marconi Queuing and Notification service for OpenStack"
+        url: "http://www.youtube.com/watch?v=iNOd7-_TdDo"
