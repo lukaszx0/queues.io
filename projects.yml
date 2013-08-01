@@ -88,6 +88,8 @@ projects:
         url: https://speakerdeck.com/coudenysj/gearman-and-zeromq-two-different-animals
       - text: "The Architecture of Open Source Applications (Volume 2): ZeroMQ"
         url: http://www.aosabook.org/en/zeromq.html
+      - text: "Network Autoconfiguration with Go and ØMQ"
+        url: http://www.kyleisom.net/blog/2013/02/26/network-autoconfiguration-with-go-and-zmq/
   sidekiq:
     name: Sidekiq
     url: http://sidekiq.org/
