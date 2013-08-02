@@ -100,6 +100,10 @@ projects:
     links:
       - text: "#366 Sidekiq - RailsCasts"
         url: http://railscasts.com/episodes/366-sidekiq
+      - text: "Sidekiq vs Resque, With MRI and JRuby"
+        url: "http://joshrendek.com/2012/11/sidekiq-vs-resque/"
+      - text: "Kicking ass with Sidekiq at StatusPage.io blog"
+        url: "http://blog.statuspage.io/kicking-ass-with-sidekiq"
   kestrel:
     name: Kestrel
     summary: "simple, distributed message queue system"
