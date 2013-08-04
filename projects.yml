@@ -98,6 +98,8 @@ projects:
       - ruby
       - redis
     links:
+      - text: "Asynchronous Processing for Fun and Profit by Mike Perham"
+        url: "http://confreaks.com/videos/1290-rubyconf2012-asynchronous-processing-for-fun-and-profit"
       - text: "#366 Sidekiq - RailsCasts"
         url: http://railscasts.com/episodes/366-sidekiq
       - text: "Sidekiq vs Resque, With MRI and JRuby"
