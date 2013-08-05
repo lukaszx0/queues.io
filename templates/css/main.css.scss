@@ -88,12 +88,15 @@ footer {
 
 #projects {
   dt {
-    span {
+    .title {
       padding: 5px;
       border-bottom: 2px solid #ddd;
-      font-weight: bold;
       display: block;
       float: left;
+      .project_name {
+        color: black;
+        font-weight: bold;
+      }
     }
     .tags {
       list-style-type: none;
@@ -111,7 +114,17 @@ footer {
         border-radius: 5px;
       }
     }
+    .anchor {
+      display: block;
+      float: left;
+      margin: 10px;
+      padding: 0;
+      span {
+        display: none;
+      }
+    }
   }
+
   dd {
     margin-bottom: 40px;
     h3 {

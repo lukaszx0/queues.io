@@ -55,7 +55,10 @@
         <dl>
           <% projects.each do |symbol, project| %>
             <dt class="clearfix">
-              <span><%= project["name"] %> <a href="<%= project["url"] %>"><%= project["url"] %></a></span>
+              <span class="title">
+                <a name="<%= symbol %>" href="#<%= symbol %>" class="project_name"><%= project["name"] %></a>
+                <a href="<%= project["url"] %>" class="project_url"><%= project["url"] %></a>
+              </span>
 
               <% if !project["tags"].nil? %>
                 <ul class="tags">
@@ -65,7 +68,7 @@
                 </ul>
               <% end %>
             </dt>
-            <dd class="<%= symbol %>">
+            <dd>
               <p><%= project["summary"] %></p>
               <% if !project["description"].nil? %>
                 <ul class="desc">
