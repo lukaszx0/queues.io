@@ -24,7 +24,7 @@ $ bin/compile
 $ bin/deploy
 ```
 
-You need to install and configure `s3cmd` utilty first:
+You need to install and configure `s3cmd` utility first:
 
 ```
 $ brew install s3cmd
