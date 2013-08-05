@@ -67,6 +67,16 @@
             </dt>
             <dd class="<%= symbol %>">
               <p><%= project["summary"] %></p>
+              <% if !project["description"].nil? %>
+                <ul class="desc">
+                  <% project["description"].each do |point| %>
+                    <li><%= point %></li>
+                  <% end %>
+                </ul>
+              <% end %>
+
+              <h3>Resources</h3>
+
               <ul class="links">
                 <% project["links"].each do |link| %>
                   <li>
