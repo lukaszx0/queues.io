@@ -36,6 +36,8 @@ projects:
         url: http://railscasts.com/episodes/243-beanstalkd-and-stalker
       - text: "What are the advantages and disadvantages of Beanstalkd as a work queue? at Quora"
         url: http://www.quora.com/Beanstalk-work-queue/What-are-the-advantages-and-disadvantages-of-Beanstalkd-as-a-work-queue
+      - text: "Beanstalk Messaging Queue"
+        url: http://nubyonrails.com/articles/about-this-blog-beanstalk-messaging-queue
   sqs:
     name: SQS - Amazon Simple Queue Service
     url: http://aws.amazon.com/sqs/
