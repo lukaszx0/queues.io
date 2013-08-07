@@ -110,6 +110,13 @@ projects:
     name: Sidekiq
     url: http://sidekiq.org/
     summary: "Simple, efficient background processing for Ruby."
+    description:
+      - Based on Redis
+      - "Multithreaded, employs <a href=\"https://github.com/celluloid/celluloid\">Celluloid</a> under the hood"
+      - "Web UI"
+      - "Resque Compatibility"
+      - "<a href=\"http://sidekiq.org/pro/\">Sidekiq Pro</a> - paid version ($500) with support and additional features (batches, notifications, reliability, metrics)"
+      - Fast growing community
     tags:
       - ruby
       - redis
