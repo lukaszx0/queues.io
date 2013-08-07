@@ -3,6 +3,13 @@ projects:
     name: Resque
     url: http://resquework.org/
     summary: "A rock-solid job queue, written in Ruby, backed by Redis."
+    description:
+      - "<a href=\"https://github.com/blog/542-introducing-resque\">Build at GitHub as an alternative to existing solutions</a>. Powers GitHub background jobs ever since."
+      - "Heavily relying on Redis as backend"
+      - "<a href=\"http://en.wikipedia.org/wiki/Fork_(operating_system)\">fork(2)</a> is used for spawning workers"
+      - "Web UI for managing running jobs, active workers etc."
+      - "Many plugins (like <a href=\"https://github.com/bvandenbos/resque-scheduler\">resque-scheduler</a>, <a href=\"https://github.com/lantins/resque-retry\">resque-retry</a>)"
+      - "Big community"
     tags:
       - ruby
       - redis
