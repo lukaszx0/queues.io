@@ -15,7 +15,24 @@ projects:
 			- text: "Introducing Apache Apollo: Part I"
 				url: http://www.christianposta.com/blog/?p=262
 			- text: "Introducing Apache Apollo: Part II"
-				url: http://www.christianposta.com/blog/?p=262				
+				url: http://www.christianposta.com/blog/?p=262		
+  hornetq:
+    name: HornetQ
+    url: http://www.jboss.org/hornetq
+    summary: "An open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system."
+    tags:
+      - java
+    links:
+      - text: "Leveraging the HornetQ Message Broker at Shopzilla"
+        url: http://www.slideshare.net/joshlong/better-living-through-messaging-leveraging-the-hornetq-message-broker-at-shopzilla
+      - text: "Github Project"
+        url: https://github.com/hornetq/hornetq
+      - text: "Twitter Page"
+        url: https://twitter.com/hornetq
+      - text: "Team Blog"
+        url: http://hornetq.blogspot.com/
+      - text: "Wikipedia Page"
+        url: http://en.wikipedia.org/wiki/HornetQ
   resque:
     name: Resque
     url: http://resquework.org/
