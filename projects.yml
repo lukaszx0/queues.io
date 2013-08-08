@@ -1,4 +1,30 @@
 projects:
+  apollo:
+    name: Apollo
+    url: http://activemq.apache.org/apollo/
+    summary: "ActiveMQ's next generation of messaging."
+		tags:
+			- java 
+    links:
+      - text: "Apollo Next Generation Message Queuing Posts Some Impressive Benchmarks"
+        url: http://www.infoq.com/news/2011/12/apollo-benchmarks
+      - text: "Introduction to ActiveMQ Apollo"
+        url: http://www.slideshare.net/dejanb/introduction-to-activemq-apollo-12992210
+			- text: "Introducing Apache Apollo: Part I"
+				url: http://www.christianposta.com/blog/?p=262
+			- text: "Introducing Apache Apollo: Part II"
+				url: http://www.christianposta.com/blog/?p=262		
+  hornetq:
+    name: HornetQ
+    url: http://www.jboss.org/hornetq
+    summary: "An open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system."
+    tags:
+      - java
+    links:
+      - text: "Leveraging the HornetQ Message Broker at Shopzilla"
+        url: http://www.slideshare.net/joshlong/better-living-through-messaging-leveraging-the-hornetq-message-broker-at-shopzilla
+      - text: "Getting Started with HornetQ 2.3"
+        url: http://java.dzone.com/articles/getting-started-hornetq-23
   resque:
     name: Resque
     url: http://resquework.org/
