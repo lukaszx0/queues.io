@@ -3,17 +3,17 @@ projects:
     name: Apollo
     url: http://activemq.apache.org/apollo/
     summary: "ActiveMQ's next generation of messaging."
-		tags:
-			- java 
+    tags:
+      - java
     links:
       - text: "Apollo Next Generation Message Queuing Posts Some Impressive Benchmarks"
         url: http://www.infoq.com/news/2011/12/apollo-benchmarks
       - text: "Introduction to ActiveMQ Apollo"
         url: http://www.slideshare.net/dejanb/introduction-to-activemq-apollo-12992210
-			- text: "Introducing Apache Apollo: Part I"
-				url: http://www.christianposta.com/blog/?p=262
-			- text: "Introducing Apache Apollo: Part II"
-				url: http://www.christianposta.com/blog/?p=262		
+      - text: "Introducing Apache Apollo: Part I"
+        url: http://www.christianposta.com/blog/?p=262
+      - text: "Introducing Apache Apollo: Part II"
+        url: http://www.christianposta.com/blog/?p=262
   hornetq:
     name: HornetQ
     url: http://www.jboss.org/hornetq
