@@ -285,3 +285,20 @@ projects:
         url: "http://www.youtube.com/watch?v=henTTZWtt2k"
       - text: "Marconi Queuing and Notification service for OpenStack"
         url: "http://www.youtube.com/watch?v=iNOd7-_TdDo"
+  workqueue:
+    name: Work Queue 
+    summary: "Work Queue is a library for building elastic master-worker applications that span commodity compute instances. API in C, Perl, and Python"
+    url: http://www.nd.edu/~ccl/software/workqueue 
+    tags:
+      - C
+      - Python
+      - Perl
+      - Elastic 
+      - Master-worker
+    links:
+      - text: "Home Page"
+        url: "http://www.nd.edu/~ccl/software/workqueue"
+      - text: "User Manual"
+        url: "http://www.nd.edu/~ccl/software/manuals/workqueue.html"
+      - text: "Source code in GitHub (part of CCTools software package)"
+        url: "https://github.com/cooperative-computing-lab/cctools"
