@@ -157,6 +157,8 @@ projects:
         url: "http://joshrendek.com/2012/11/sidekiq-vs-resque/"
       - text: "Kicking ass with Sidekiq at StatusPage.io blog"
         url: "http://blog.statuspage.io/kicking-ass-with-sidekiq"
+      - text: "Sidekiq at LinuxJournal"
+        url: "http://www.linuxjournal.com/content/sidekiq"
   kestrel:
     name: Kestrel
     summary: "simple, distributed message queue system"
