@@ -23,13 +23,13 @@ projects:
       - amqp
     links:
       - text: "Performance comparison between ZeroMQ, RabbitMQ and Apache Qpid"
-        url: "http://stackoverflow.com/questions/7921324/performance-comparison-between-zeromq-rabbitmq-and-apache-qpid"
+        url: http://stackoverflow.com/questions/7921324/performance-comparison-between-zeromq-rabbitmq-and-apache-qpid
       - text: "RabbitMQ vs Apache ActiveMQ vs Apache qpid"
-        url: "http://bhavin.directi.com/rabbitmq-vs-apache-activemq-vs-apache-qpid/"
+        url: http://bhavin.directi.com/rabbitmq-vs-apache-activemq-vs-apache-qpid/
       - text: "Programming in Apache Qpid"
-        url: "https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_MRG/1.3/html-single/Programming_in_Apache_Qpid/index.html"
+        url: https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_MRG/1.3/html-single/Programming_in_Apache_Qpid/index.html
       - text: "QpidComponents.org is an open source development community dedicated to plugins and tools for enterprise-grade messaging in Apache Qpid"
-        url: "http://qpidcomponents.org/"
+        url: http://qpidcomponents.org/
   hornetq:
     name: HornetQ
     url: http://www.jboss.org/hornetq
@@ -38,7 +38,7 @@ projects:
       - java
     links:
       - text: "Building a Distributed Messaging System at Groupon"
-        url: "https://engineering.groupon.com/2013/hornetq/building-a-distributed-messaging-system/"
+        url: https://engineering.groupon.com/2013/hornetq/building-a-distributed-messaging-system/
       - text: "Leveraging the HornetQ Message Broker at Shopzilla"
         url: http://www.slideshare.net/joshlong/better-living-through-messaging-leveraging-the-hornetq-message-broker-at-shopzilla
       - text: "Getting Started with HornetQ 2.3"
@@ -58,24 +58,28 @@ projects:
       - ruby
       - redis
     links:
-      - text: Introducing Resque at GitHub.com blog
+      - text: "Introducing Resque at GitHub.com blog"
         url: https://github.com/blog/542-introducing-resque
-      - text: Queuing in Ruby with Redis and Resque at Heroku Center
+      - text: "Queuing in Ruby with Redis and Resque at Heroku Center"
         url: https://devcenter.heroku.com/articles/queuing-ruby-resque
       - text: "Do YOU KNOW Resque"
         url: http://rubylearning.com/blog/2010/11/08/do-you-know-resque/
-      - text: How Queuing With Resque Works
+      - text: "How Queuing With Resque Works"
         url: http://girders.org/blog/2011/10/30/how-queuing-with-resque-works/
   delayed_job:
     name: Delayed::Job
     url: https://github.com/collectiveidea/delayed_job
-    summary: Database based asynchronously priority queue system
+    summary: "Database based asynchronously priority queue system"
     tags:
       - ruby
       - mysql
     links:
       - text: "#171 Delayed Job - RailsCasts"
         url: http://railscasts.com/episodes/171-delayed-job
+      - text: "Do It Later With Delayed Job."
+        url: http://www.therailsway.com/2009/7/22/do-it-later-with-delayed-job/
+      - text: "Delayed Jobs Callbacks and Hooks in Rails"
+        url: http://www.salsify.com/blog/delayed-jobs-callbacks-and-hooks-in-rails
   beanstalkd:
     name: Beanstalkd
     url: http://kr.github.io/beanstalkd/
@@ -198,15 +202,15 @@ projects:
       - redis
     links:
       - text: "Asynchronous Processing for Fun and Profit by Mike Perham"
-        url: "http://confreaks.com/videos/1290-rubyconf2012-asynchronous-processing-for-fun-and-profit"
+        url: http://confreaks.com/videos/1290-rubyconf2012-asynchronous-processing-for-fun-and-profit
       - text: "#366 Sidekiq - RailsCasts"
         url: http://railscasts.com/episodes/366-sidekiq
       - text: "Sidekiq vs Resque, With MRI and JRuby"
-        url: "http://joshrendek.com/2012/11/sidekiq-vs-resque/"
+        url: http://joshrendek.com/2012/11/sidekiq-vs-resque/
       - text: "Kicking ass with Sidekiq at StatusPage.io blog"
-        url: "http://blog.statuspage.io/kicking-ass-with-sidekiq"
+        url: http://blog.statuspage.io/kicking-ass-with-sidekiq
       - text: "Sidekiq at LinuxJournal"
-        url: "http://www.linuxjournal.com/content/sidekiq"
+        url: http://www.linuxjournal.com/content/sidekiq
   kestrel:
     name: Kestrel
     summary: "simple, distributed message queue system"
@@ -248,15 +252,15 @@ projects:
     tags:
       - erlang
     links:
-      - text: RabbitMQ tutorials
+      - text: "RabbitMQ tutorials"
         url: http://www.rabbitmq.com/getstarted.html
-      - text: Smalltalk on RabbitMQ and Nanite
+      - text: "Smalltalk on RabbitMQ and Nanite"
         url: http://www.paperplanes.de/2009/7/8/smalltalk_on_rabbitmq_and_nanite.html
       - text: "22 Billion Served: Julien Genestoux of Superfeedr"
         url: http://blog.gopivotal.com/case-studies-2/22-billion-served-julien-genestoux-of-superfeedr
-      - text: Lift AMQP with RabbitMQ and Scala – Tutorial and Screencast
+      - text: "Lift AMQP with RabbitMQ and Scala – Tutorial and Screencast"
         url: http://timperrett.com/2009/05/22/lift-amqp-with-rabbitmq-and-scala-tutorial-and-screencast/
-      - text: High powered messaging with RabbitMQ
+      - text: "High powered messaging with RabbitMQ"
         url: http://www.slideshare.net/carrja99/high-powered-messaging-with
       - text: "RabbitMQ in Action: Distributed Messaging for Everyone"
         url: http://www.amazon.com/RabbitMQ-Action-Distributed-Messaging-Everyone/dp/1935182978
@@ -332,6 +336,6 @@ projects:
       - durable
     links:
       - text: "OpenStack Summit 2013 Project Overview: Marconi Queueing and Notification Service"
-        url: "http://www.youtube.com/watch?v=henTTZWtt2k"
+        url: http://www.youtube.com/watch?v=henTTZWtt2k
       - text: "Marconi Queuing and Notification service for OpenStack"
-        url: "http://www.youtube.com/watch?v=iNOd7-_TdDo"
+        url: http://www.youtube.com/watch?v=iNOd7-_TdDo
