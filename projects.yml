@@ -5,6 +5,7 @@ projects:
     summary: "ActiveMQ's next generation of messaging."
     tags:
       - java
+      - amqp
     links:
       - text: "Apollo Next Generation Message Queuing Posts Some Impressive Benchmarks"
         url: http://www.infoq.com/news/2011/12/apollo-benchmarks
@@ -21,6 +22,7 @@ projects:
     tags:
       - java
       - amqp
+      - cpp
     links:
       - text: "Performance comparison between ZeroMQ, RabbitMQ and Apache Qpid"
         url: http://stackoverflow.com/questions/7921324/performance-comparison-between-zeromq-rabbitmq-and-apache-qpid
@@ -36,6 +38,8 @@ projects:
     summary: "An open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system."
     tags:
       - java
+      - amqp
+      - jms
     links:
       - text: "Building a Distributed Messaging System at Groupon"
         url: https://engineering.groupon.com/2013/hornetq/building-a-distributed-messaging-system/
@@ -109,6 +113,10 @@ projects:
     links:
       - text: "What are the advantages and disadvantages of Beanstalkd as a work queue? at Quora"
         url: http://www.quora.com/Beanstalk-work-queue/What-are-the-advantages-and-disadvantages-of-Beanstalkd-as-a-work-queue
+      - text: "What is Amazon Simple Queue Service?"
+        url: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/Welcome.html
+      - text: "Zend Framework with SQS Adapter (PHP)"
+        url: http://framework.zend.com/manual/1.12/ru/zend.service.amazon.sqs.html
   kafka:
     name: Apache Kafka
     url: http://kafka.apache.org/
@@ -222,6 +230,10 @@ projects:
         url: http://robey.lag.net/2008/11/27/scarling-to-kestrel.html
       - text: "Kestrel in Production at Papertrail"
         url: http://blog.scoutapp.com/articles/2012/08/15/kestrel-monitoring
+      - text: "Misleading Title About Queueing"
+        url: http://www.railstips.org/blog/archives/2012/03/05/misleading-title-about-queueing/
+      - text: "Don't Forget About the Kestrel Messaging Queue"
+        url: http://java.dzone.com/articles/dont-forget-about-kestrel
   gearman:
     name: Gearman
     summary: Gearman Job Server
@@ -233,6 +245,16 @@ projects:
         url: http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances-dozens-of
       - text: "Gearman and ZeroMQ, two different animals"
         url: https://speakerdeck.com/coudenysj/gearman-and-zeromq-two-different-animals
+      - text: "Gearman: A Job Server made for Scale (Presentation)"
+        url: http://www.slideshare.net/mwillbanks/minne-bar-gearman
+      - text: "Scalable architecture with Gearman job server."
+        url: http://www.cirello.org/2012/05/scalable-architecture-with-gearman-job-server/
+      - text: "Installing, configuring and running Gearman Job Server + PHP on Ubuntu"
+        url: http://www.modernfidelity.co.uk/tech/installing-configuring-and-running-gearman-php-ubuntu
+      - text: "Playing with Gearman"
+        url: http://toys.lerdorf.com/archives/51-Playing-with-Gearman.html
+      - text: "Notes on using Gearman with Python"
+        url: http://www.saltycrane.com/blog/2010/04/notes-using-gearman-with-python/
   queue_classic:
     name: queue_classic
     summary: "Simple, efficient worker queue for Ruby & PostgreSQL."
