@@ -154,6 +154,18 @@ projects:
         url: http://www.kyleisom.net/blog/2013/02/26/network-autoconfiguration-with-go-and-zmq/
       - text: "Integrate ZeroMQ, AMQP, JMS WebSphere MQ and more in 2 lines of Python code with Zato"
         url: http://architects.dzone.com/articles/integrate-zeromq-amqp-jms-0
+      - text: "ZeroMQ instead of HTTP, for internal services"
+        url: http://augustl.com/blog/2013/zeromq_instead_of_http/
+      - text: "gevent-zeromq - library wraps pyzmq to make it compatible with gevent (Python)"
+        url: https://github.com/traviscline/gevent-zeromq
+      - text: "Introducing ZuQ – A Simple ZeroMQ Queuing Daemon"
+        url: http://devincharge.com/introducing-zuq/
+      - text: "ZeroMQ an introduction (Really - the best must read article!)"
+        url: http://nichol.as/zeromq-an-introduction
+      - text: "ZeroMQ: Modern & Fast Networking Stack"
+        url: http://www.igvita.com/2010/09/03/zeromq-modern-fast-networking-stack/
+      - text: "ZeroMQ via C#: Introduction"
+        url: http://www.codeproject.com/Articles/488207/ZeroMQ-via-Csharp-Introduction
   crossroadio:
     name: "Crossroads I/O"
     url: http://www.crossroads.io/
