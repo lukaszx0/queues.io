@@ -150,6 +150,21 @@ projects:
         url: http://www.aosabook.org/en/zeromq.html
       - text: "Network Autoconfiguration with Go and ØMQ"
         url: http://www.kyleisom.net/blog/2013/02/26/network-autoconfiguration-with-go-and-zmq/
+  crossroadio:
+    name: "Crossroads I/O"
+    url: http://www.crossroads.io/
+    summary: "Crossroads I/O ('libxs') is a library for building scalable and high performance distributed applications. It fits between classic BSD sockets, JMS/AMQP-style message queues, and enterprise message-oriented middleware."
+    tags:
+      - c
+    links:
+      - text: "Crossroads I/O core library source code"
+        url: https://github.com/crossroads-io/libxs
+      - text: "ZeroC ICE vs 0MQ/ZeroMQ vs Crossroads IO vs Open Source DDS"
+        url: http://stackoverflow.com/questions/12104123/zeroc-ice-vs-0mq-zeromq-vs-crossroads-io-vs-open-source-dds
+      - text: "ANNOUNCE Crossroads I/O release 1.0.0"
+        url: http://lists.zeromq.org/pipermail/zeromq-dev/2012-March/016429.html
+      - text: "ZeroMQ vs Crossroads I/O"
+        url: http://stackoverflow.com/questions/13494033/zeromq-vs-crossroads-i-o
   sidekiq:
     name: Sidekiq
     url: http://sidekiq.org/
