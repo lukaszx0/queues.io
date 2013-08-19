@@ -156,6 +156,7 @@ projects:
     summary: "Crossroads I/O ('libxs') is a library for building scalable and high performance distributed applications. It fits between classic BSD sockets, JMS/AMQP-style message queues, and enterprise message-oriented middleware."
     tags:
       - c
+      - zeromq
     links:
       - text: "Crossroads I/O core library source code"
         url: https://github.com/crossroads-io/libxs
