@@ -14,6 +14,22 @@ projects:
         url: http://www.christianposta.com/blog/?p=262
       - text: "Introducing Apache Apollo: Part II"
         url: http://www.christianposta.com/blog/?p=262
+  qpid: 
+    name: Apache Qpid
+    url: http://qpid.apache.org/
+    summary: "Apache Qpid™ makes messaging tools that speak AMQP and support many languages and platforms (in C++, Python, Java JMS and .NET)"
+    tags:
+      - java
+      - amqp
+    links:
+      - text: "Performance comparison between ZeroMQ, RabbitMQ and Apache Qpid"
+        url: "http://stackoverflow.com/questions/7921324/performance-comparison-between-zeromq-rabbitmq-and-apache-qpid"
+      - text: "RabbitMQ vs Apache ActiveMQ vs Apache qpid"
+        url: "http://bhavin.directi.com/rabbitmq-vs-apache-activemq-vs-apache-qpid/"
+      - text: "Programming in Apache Qpid"
+        url: "https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_MRG/1.3/html-single/Programming_in_Apache_Qpid/index.html"
+      - text: "QpidComponents.org is an open source development community dedicated to plugins and tools for enterprise-grade messaging in Apache Qpid"
+        url: "http://qpidcomponents.org/"
   hornetq:
     name: HornetQ
     url: http://www.jboss.org/hornetq
