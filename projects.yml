@@ -298,18 +298,21 @@ projects:
         url: http://seancribbs.com/tech/2009/12/23/generating-thousands-of-pdfs-on-ec2-with-ruby/
   celery:
     name: Celery
-    summary: Distributed Task Queue
+    summary: "Celery is an asynchronous task queue/job queue based on distributed message passing"
     url: http://www.celeryproject.org/
     tags:
       - python
+      - task queue
     links:
       - text: "Using Celery for queuing requests"
         url: https://blog.serverdensity.com/using-celery-for-queuing-requests/
       - text: "An Introduction to Celery by Gilang Chandrasa (slides)"
         url: https://speakerdeck.com/gchandrasa/an-introduction-to-celery
+      - text: "Advanced Celery (video)"
+        url: http://architects.dzone.com/articles/advanced-celery
   rq:
     name: RQ
-    summary: RQ (Redis Queue) is a simple Python library for queueing jobs and processing them in the background with workers
+    summary: "RQ (Redis Queue) is a simple Python library for queueing jobs and processing them in the background with workers" 
     url: http://python-rq.org/
     tags:
       - python
