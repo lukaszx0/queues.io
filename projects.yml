@@ -5,6 +5,7 @@ projects:
     summary: "ActiveMQ's next generation of messaging."
     tags:
       - java
+      - amqp
     links:
       - text: "Apollo Next Generation Message Queuing Posts Some Impressive Benchmarks"
         url: http://www.infoq.com/news/2011/12/apollo-benchmarks
@@ -21,24 +22,27 @@ projects:
     tags:
       - java
       - amqp
+      - cpp
     links:
       - text: "Performance comparison between ZeroMQ, RabbitMQ and Apache Qpid"
-        url: "http://stackoverflow.com/questions/7921324/performance-comparison-between-zeromq-rabbitmq-and-apache-qpid"
+        url: http://stackoverflow.com/questions/7921324/performance-comparison-between-zeromq-rabbitmq-and-apache-qpid
       - text: "RabbitMQ vs Apache ActiveMQ vs Apache qpid"
-        url: "http://bhavin.directi.com/rabbitmq-vs-apache-activemq-vs-apache-qpid/"
+        url: http://bhavin.directi.com/rabbitmq-vs-apache-activemq-vs-apache-qpid/
       - text: "Programming in Apache Qpid"
-        url: "https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_MRG/1.3/html-single/Programming_in_Apache_Qpid/index.html"
+        url: https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_MRG/1.3/html-single/Programming_in_Apache_Qpid/index.html
       - text: "QpidComponents.org is an open source development community dedicated to plugins and tools for enterprise-grade messaging in Apache Qpid"
-        url: "http://qpidcomponents.org/"
+        url: http://qpidcomponents.org/
   hornetq:
     name: HornetQ
     url: http://www.jboss.org/hornetq
     summary: "An open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system."
     tags:
       - java
+      - amqp
+      - jms
     links:
       - text: "Building a Distributed Messaging System at Groupon"
-        url: "https://engineering.groupon.com/2013/hornetq/building-a-distributed-messaging-system/"
+        url: https://engineering.groupon.com/2013/hornetq/building-a-distributed-messaging-system/
       - text: "Leveraging the HornetQ Message Broker at Shopzilla"
         url: http://www.slideshare.net/joshlong/better-living-through-messaging-leveraging-the-hornetq-message-broker-at-shopzilla
       - text: "Getting Started with HornetQ 2.3"
@@ -58,24 +62,28 @@ projects:
       - ruby
       - redis
     links:
-      - text: Introducing Resque at GitHub.com blog
+      - text: "Introducing Resque at GitHub.com blog"
         url: https://github.com/blog/542-introducing-resque
-      - text: Queuing in Ruby with Redis and Resque at Heroku Center
+      - text: "Queuing in Ruby with Redis and Resque at Heroku Center"
         url: https://devcenter.heroku.com/articles/queuing-ruby-resque
       - text: "Do YOU KNOW Resque"
         url: http://rubylearning.com/blog/2010/11/08/do-you-know-resque/
-      - text: How Queuing With Resque Works
+      - text: "How Queuing With Resque Works"
         url: http://girders.org/blog/2011/10/30/how-queuing-with-resque-works/
   delayed_job:
     name: Delayed::Job
     url: https://github.com/collectiveidea/delayed_job
-    summary: Database based asynchronously priority queue system
+    summary: "Database based asynchronously priority queue system"
     tags:
       - ruby
       - mysql
     links:
       - text: "#171 Delayed Job - RailsCasts"
         url: http://railscasts.com/episodes/171-delayed-job
+      - text: "Do It Later With Delayed Job."
+        url: http://www.therailsway.com/2009/7/22/do-it-later-with-delayed-job/
+      - text: "Delayed Jobs Callbacks and Hooks in Rails"
+        url: http://www.salsify.com/blog/delayed-jobs-callbacks-and-hooks-in-rails
   beanstalkd:
     name: Beanstalkd
     url: http://kr.github.io/beanstalkd/
@@ -105,6 +113,10 @@ projects:
     links:
       - text: "What are the advantages and disadvantages of Beanstalkd as a work queue? at Quora"
         url: http://www.quora.com/Beanstalk-work-queue/What-are-the-advantages-and-disadvantages-of-Beanstalkd-as-a-work-queue
+      - text: "What is Amazon Simple Queue Service?"
+        url: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/Welcome.html
+      - text: "Zend Framework with SQS Adapter (PHP)"
+        url: http://framework.zend.com/manual/1.12/ru/zend.service.amazon.sqs.html
   kafka:
     name: Apache Kafka
     url: http://kafka.apache.org/
@@ -120,6 +132,8 @@ projects:
         url: https://vimeo.com/62298867
       - text: "Running a Multi-Broker Apache Kafka 0.8 Cluster on a Single Node"
         url: http://www.michael-noll.com/blog/2013/03/13/running-a-multi-broker-apache-kafka-cluster-on-a-single-node/
+      - text: "Introduction and Overview of Apache Kafka, TriHUG July 23, 2013 [Presentation]"
+        url: http://www.slideshare.net/mumrah/kafka-talk-tri-hug
   nsq:
     name: NSQ
     url: https://github.com/bitly/nsq
@@ -150,6 +164,20 @@ projects:
         url: http://www.aosabook.org/en/zeromq.html
       - text: "Network Autoconfiguration with Go and ØMQ"
         url: http://www.kyleisom.net/blog/2013/02/26/network-autoconfiguration-with-go-and-zmq/
+      - text: "Integrate ZeroMQ, AMQP, JMS WebSphere MQ and more in 2 lines of Python code with Zato"
+        url: http://architects.dzone.com/articles/integrate-zeromq-amqp-jms-0
+      - text: "ZeroMQ instead of HTTP, for internal services"
+        url: http://augustl.com/blog/2013/zeromq_instead_of_http/
+      - text: "gevent-zeromq - library wraps pyzmq to make it compatible with gevent (Python)"
+        url: https://github.com/traviscline/gevent-zeromq
+      - text: "Introducing ZuQ – A Simple ZeroMQ Queuing Daemon"
+        url: http://devincharge.com/introducing-zuq/
+      - text: "ZeroMQ an introduction (Really - the best must read article!)"
+        url: http://nichol.as/zeromq-an-introduction
+      - text: "ZeroMQ: Modern & Fast Networking Stack"
+        url: http://www.igvita.com/2010/09/03/zeromq-modern-fast-networking-stack/
+      - text: "ZeroMQ via C#: Introduction"
+        url: http://www.codeproject.com/Articles/488207/ZeroMQ-via-Csharp-Introduction
   crossroadio:
     name: "Crossroads I/O"
     url: http://www.crossroads.io/
@@ -182,15 +210,15 @@ projects:
       - redis
     links:
       - text: "Asynchronous Processing for Fun and Profit by Mike Perham"
-        url: "http://confreaks.com/videos/1290-rubyconf2012-asynchronous-processing-for-fun-and-profit"
+        url: http://confreaks.com/videos/1290-rubyconf2012-asynchronous-processing-for-fun-and-profit
       - text: "#366 Sidekiq - RailsCasts"
         url: http://railscasts.com/episodes/366-sidekiq
       - text: "Sidekiq vs Resque, With MRI and JRuby"
-        url: "http://joshrendek.com/2012/11/sidekiq-vs-resque/"
+        url: http://joshrendek.com/2012/11/sidekiq-vs-resque/
       - text: "Kicking ass with Sidekiq at StatusPage.io blog"
-        url: "http://blog.statuspage.io/kicking-ass-with-sidekiq"
+        url: http://blog.statuspage.io/kicking-ass-with-sidekiq
       - text: "Sidekiq at LinuxJournal"
-        url: "http://www.linuxjournal.com/content/sidekiq"
+        url: http://www.linuxjournal.com/content/sidekiq
   kestrel:
     name: Kestrel
     summary: "simple, distributed message queue system"
@@ -202,6 +230,10 @@ projects:
         url: http://robey.lag.net/2008/11/27/scarling-to-kestrel.html
       - text: "Kestrel in Production at Papertrail"
         url: http://blog.scoutapp.com/articles/2012/08/15/kestrel-monitoring
+      - text: "Misleading Title About Queueing"
+        url: http://www.railstips.org/blog/archives/2012/03/05/misleading-title-about-queueing/
+      - text: "Don't Forget About the Kestrel Messaging Queue"
+        url: http://java.dzone.com/articles/dont-forget-about-kestrel
   gearman:
     name: Gearman
     summary: Gearman Job Server
@@ -213,6 +245,16 @@ projects:
         url: http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances-dozens-of
       - text: "Gearman and ZeroMQ, two different animals"
         url: https://speakerdeck.com/coudenysj/gearman-and-zeromq-two-different-animals
+      - text: "Gearman: A Job Server made for Scale (Presentation)"
+        url: http://www.slideshare.net/mwillbanks/minne-bar-gearman
+      - text: "Scalable architecture with Gearman job server."
+        url: http://www.cirello.org/2012/05/scalable-architecture-with-gearman-job-server/
+      - text: "Installing, configuring and running Gearman Job Server + PHP on Ubuntu"
+        url: http://www.modernfidelity.co.uk/tech/installing-configuring-and-running-gearman-php-ubuntu
+      - text: "Playing with Gearman"
+        url: http://toys.lerdorf.com/archives/51-Playing-with-Gearman.html
+      - text: "Notes on using Gearman with Python"
+        url: http://www.saltycrane.com/blog/2010/04/notes-using-gearman-with-python/
   queue_classic:
     name: queue_classic
     summary: "Simple, efficient worker queue for Ruby & PostgreSQL."
@@ -232,15 +274,15 @@ projects:
     tags:
       - erlang
     links:
-      - text: RabbitMQ tutorials
+      - text: "RabbitMQ tutorials"
         url: http://www.rabbitmq.com/getstarted.html
-      - text: Smalltalk on RabbitMQ and Nanite
+      - text: "Smalltalk on RabbitMQ and Nanite"
         url: http://www.paperplanes.de/2009/7/8/smalltalk_on_rabbitmq_and_nanite.html
       - text: "22 Billion Served: Julien Genestoux of Superfeedr"
         url: http://blog.gopivotal.com/case-studies-2/22-billion-served-julien-genestoux-of-superfeedr
-      - text: Lift AMQP with RabbitMQ and Scala – Tutorial and Screencast
+      - text: "Lift AMQP with RabbitMQ and Scala – Tutorial and Screencast"
         url: http://timperrett.com/2009/05/22/lift-amqp-with-rabbitmq-and-scala-tutorial-and-screencast/
-      - text: High powered messaging with RabbitMQ
+      - text: "High powered messaging with RabbitMQ"
         url: http://www.slideshare.net/carrja99/high-powered-messaging-with
       - text: "RabbitMQ in Action: Distributed Messaging for Everyone"
         url: http://www.amazon.com/RabbitMQ-Action-Distributed-Messaging-Everyone/dp/1935182978
@@ -316,6 +358,6 @@ projects:
       - durable
     links:
       - text: "OpenStack Summit 2013 Project Overview: Marconi Queueing and Notification Service"
-        url: "http://www.youtube.com/watch?v=henTTZWtt2k"
+        url: http://www.youtube.com/watch?v=henTTZWtt2k
       - text: "Marconi Queuing and Notification service for OpenStack"
-        url: "http://www.youtube.com/watch?v=iNOd7-_TdDo"
+        url: http://www.youtube.com/watch?v=iNOd7-_TdDo
