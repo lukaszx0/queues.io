@@ -3,6 +3,10 @@ projects:
     name: Apollo
     url: http://activemq.apache.org/apollo/
     summary: "ActiveMQ's next generation of messaging."
+    protocol: "STOMP, AMQP, MQTT, Openwire",
+    version: 1.6
+    source: http://activemq.apache.org/apollo/download.html
+    license: "Apache License Version 2.0"
     tags:
       - java
       - amqp
@@ -19,6 +23,10 @@ projects:
     name: Apache Qpid
     url: http://qpid.apache.org/
     summary: "Apache Qpid™ makes messaging tools that speak AMQP and support many languages and platforms (in C++, Python, Java JMS and .NET)"
+    protocol: "JMS, AMQP"
+    version: 0.22
+    source: http://qpid.apache.org/download.html
+    license: "Apache License, Version 2.0"
     tags:
       - java
       - amqp
