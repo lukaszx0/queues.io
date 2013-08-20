@@ -3,7 +3,7 @@ projects:
     name: Apollo
     url: http://activemq.apache.org/apollo/
     summary: "ActiveMQ's next generation of messaging."
-    protocol: "STOMP, AMQP, MQTT, Openwire",
+    protocol: "STOMP, AMQP, MQTT, Openwire"
     version: 1.6
     source: http://activemq.apache.org/apollo/download.html
     license: "Apache License Version 2.0"
