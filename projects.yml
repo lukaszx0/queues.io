@@ -154,6 +154,10 @@ projects:
     tags:
       - cpp
     links:
+      - text: "ZeroMQ an introduction (Really - the best must read article!)"
+        url: http://nichol.as/zeromq-an-introduction
+      - text: "ZeroMQ: Modern & Fast Networking Stack"
+        url: http://www.igvita.com/2010/09/03/zeromq-modern-fast-networking-stack/
       - text: "PyCon 2011: Advanced Network Architectures With ZeroMQ (video)"
         url: http://blip.tv/pycon-us-videos-2009-2010-2011/pycon-2011-advanced-network-architectures-with-zeromq-4896861
       - text: "Ømq & Services @ Chartboost by Kenneth Ballenegger (slides)"
@@ -172,10 +176,6 @@ projects:
         url: https://github.com/traviscline/gevent-zeromq
       - text: "Introducing ZuQ – A Simple ZeroMQ Queuing Daemon"
         url: http://devincharge.com/introducing-zuq/
-      - text: "ZeroMQ an introduction (Really - the best must read article!)"
-        url: http://nichol.as/zeromq-an-introduction
-      - text: "ZeroMQ: Modern & Fast Networking Stack"
-        url: http://www.igvita.com/2010/09/03/zeromq-modern-fast-networking-stack/
       - text: "ZeroMQ via C#: Introduction"
         url: http://www.codeproject.com/Articles/488207/ZeroMQ-via-Csharp-Introduction
   crossroadio:
