@@ -286,6 +286,8 @@ projects:
         url: http://www.slideshare.net/carrja99/high-powered-messaging-with
       - text: "RabbitMQ in Action: Distributed Messaging for Everyone"
         url: http://www.amazon.com/RabbitMQ-Action-Distributed-Messaging-Everyone/dp/1935182978
+      - text: "Generating Thousands of PDFs on EC2 with Ruby"
+        url: http://seancribbs.com/tech/2009/12/23/generating-thousands-of-pdfs-on-ec2-with-ruby/
   celery:
     name: Celery
     summary: Distributed Task Queue
@@ -361,3 +363,16 @@ projects:
         url: http://www.youtube.com/watch?v=henTTZWtt2k
       - text: "Marconi Queuing and Notification service for OpenStack"
         url: http://www.youtube.com/watch?v=iNOd7-_TdDo
+  snakemq:
+    name: snakeMQ
+    summary: "snakeMQ is a small cross-platform async brokerless pure Python library for easy and reliable communication between hosts. "
+    url: http://www.snakemq.net/
+    tags:
+      - python
+      - brokerless
+      - crossplatform
+      - library
+      - ownprotocol
+    links:
+      -text: "Github source code repo"
+        url: https://github.com/dsiroky/snakemq
