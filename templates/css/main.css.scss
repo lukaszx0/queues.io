@@ -33,6 +33,8 @@
 
 $light_blue: #466B82;
 $dark_blue: #67A0AB;
+$light_gray: #ddd;
+$dark_gray: #bfbfbf;
 
 body {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -90,7 +92,7 @@ footer {
   dt {
     .title {
       padding: 5px;
-      border-bottom: 2px solid #ddd;
+      border-bottom: 2px solid $light_gray;
       display: block;
       float: left;
       .project_name {
@@ -129,6 +131,12 @@ footer {
     margin-bottom: 40px;
     h3 {
       font-size: 15px;
+    }
+  }
+
+  .links {
+    .host {
+      color: $dark_gray;
     }
   }
 }

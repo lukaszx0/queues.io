@@ -5,6 +5,8 @@ require 'yaml'
 require 'tilt/erb'
 require 'tilt/sass'
 
+require 'uri'
+
 context  = Class.new do
   def self.projects
     YAML.load_file("projects.yml")["projects"].sort_by{ |symbol, project| symbol }
@@ -13,6 +15,10 @@ context  = Class.new do
   # Helpers
   def self.link_to(text, href)
     "<a href=\"#{href}\">#{text}</a>"
+  end
+
+  def self.url_host(url)
+    URI.parse(url).host.gsub(/^www\./, "")
   end
 end
 

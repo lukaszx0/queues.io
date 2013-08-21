@@ -84,6 +84,7 @@
                 <% project["links"].each do |link| %>
                   <li>
                     <%= link_to(link["text"], link["url"]) %>
+                    <span class="host"><%= url_host(link["url"]) %></span>
                   </li>
                 <% end %>
               </ul>
