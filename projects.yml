@@ -304,6 +304,8 @@ projects:
       - python
       - task queue
     links:
+      - text: "What’s new in Celery 3.0"
+        url: http://docs.celeryproject.org/en/latest/whatsnew-3.0.html
       - text: "Using Celery for queuing requests"
         url: https://blog.serverdensity.com/using-celery-for-queuing-requests/
       - text: "An Introduction to Celery by Gilang Chandrasa (slides)"
