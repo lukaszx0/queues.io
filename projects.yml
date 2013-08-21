@@ -389,5 +389,16 @@ projects:
       - library
       - ownprotocol
     links:
-      -text: "Github source code repo"
+      - text: "Github source code repo"
         url: https://github.com/dsiroky/snakemq
+  kuyruk:
+    name: Kuyruk
+    summary: "Simple and easy way of distributing tasks (over AMQP with RabbitMQ) to run on servers."
+    url: https://kuyruk.readthedocs.org/en/latest/
+    tags:
+      - python
+      - task
+      - amqp
+    links:
+      - text: "Getting Started"
+        url: https://kuyruk.readthedocs.org/en/latest/gettingstarted.html
