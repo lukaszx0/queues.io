@@ -312,6 +312,8 @@ projects:
         url: https://speakerdeck.com/gchandrasa/an-introduction-to-celery
       - text: "Advanced Celery (video)"
         url: http://architects.dzone.com/articles/advanced-celery
+      - text: "First Steps with Celery"
+        url: http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html
   rq:
     name: RQ
     summary: "RQ (Redis Queue) is a simple Python library for queueing jobs and processing them in the background with workers" 
