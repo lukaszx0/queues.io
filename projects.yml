@@ -40,6 +40,8 @@ projects:
         url: https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_MRG/1.3/html-single/Programming_in_Apache_Qpid/index.html
       - text: "QpidComponents.org is an open source development community dedicated to plugins and tools for enterprise-grade messaging in Apache Qpid"
         url: http://qpidcomponents.org/
+      - text: "How to use the Java Message Service (JMS) API with Service Bus & AMQP 1.0"
+        url: http://www.windowsazure.com/en-us/develop/java/how-to-guides/service-bus-amqp/
   hornetq:
     name: HornetQ
     url: http://www.jboss.org/hornetq
