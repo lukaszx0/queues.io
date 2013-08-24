@@ -404,3 +404,12 @@ projects:
     links:
       - text: "Getting Started"
         url: https://kuyruk.readthedocs.org/en/latest/gettingstarted.html
+  hivemq:
+    name: HiveMQ
+    summary: "HiveMQ is a MQTT broker, specifically for enterprises which find themself in the emerging age of Machine-to-Machine communication (M2M) and the Internet of Things. It was built from the ground up with maximum scalability, easy management and security in mind."
+    url: http://www.hivemq.com/
+    tags:
+      - mqtt
+      - pubsub
+    links:
+      
