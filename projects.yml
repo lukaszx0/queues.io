@@ -204,6 +204,19 @@ projects:
         url: http://lists.zeromq.org/pipermail/zeromq-dev/2012-March/016429.html
       - text: "ZeroMQ vs Crossroads I/O"
         url: http://stackoverflow.com/questions/13494033/zeromq-vs-crossroads-i-o
+  nanomsg:
+    name: Nanomsg
+    url: http://nanomsg.org/
+    summary: "nanomsg library is a high-performance implementation of several "scalability protocols". Scalability protocol's job is to define how multiple applications communicate to form a single distributed application"
+    tags:
+      - zeromq
+      - socket
+      - ownprotocol
+      - pubsub
+      - c
+    links:
+      - text: "Nanomsg, the Next Gen ZeroMQ, is Here"
+        url: http://architects.dzone.com/articles/nanomsg-next-gen-zeromq-here
   sidekiq:
     name: Sidekiq
     url: http://sidekiq.org/
