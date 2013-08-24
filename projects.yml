@@ -188,6 +188,12 @@ projects:
         url: http://www.igvita.com/2010/09/03/zeromq-modern-fast-networking-stack/
       - text: "ZeroMQ via C#: Introduction"
         url: http://www.codeproject.com/Articles/488207/ZeroMQ-via-Csharp-Introduction
+      - text: "Design of PUB/SUB subsystem in ØMQ"
+        url: http://250bpm.com/pubsub
+      - text: "ØMQ: The Theoretical Foundation"
+        url: http://250bpm.com/concepts
+      - text: "0MQ: A new approach to messaging"
+        url: http://lwn.net/Articles/370307/
   crossroadio:
     name: "Crossroads I/O"
     url: http://www.crossroads.io/
@@ -217,6 +223,14 @@ projects:
     links:
       - text: "Nanomsg, the Next Gen ZeroMQ, is Here"
         url: http://architects.dzone.com/articles/nanomsg-next-gen-zeromq-here
+      - text: "How to Write a Language Binding for nanomsg"
+        url: http://250bpm.com/blog:21
+      - text: "Optimising Subscriptions in nanomsg"
+        url: http://250bpm.com/blog:19
+      - text: "Priotitised Load Balancing with nanomsg"
+        url: http://250bpm.com/blog:14
+      - text: "Binding nanomsg with melange"
+        url: http://dylanfoundry.org/2013/01/25/binding-nanomsg-with-melange/
   sidekiq:
     name: Sidekiq
     url: http://sidekiq.org/
