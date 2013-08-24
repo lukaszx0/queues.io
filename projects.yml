@@ -325,6 +325,8 @@ projects:
         url: http://www.amazon.com/RabbitMQ-Action-Distributed-Messaging-Everyone/dp/1935182978
       - text: "Generating Thousands of PDFs on EC2 with Ruby"
         url: http://seancribbs.com/tech/2009/12/23/generating-thousands-of-pdfs-on-ec2-with-ruby/
+      - text: "Minimalistic, blocking pure-python RabbitMQ library. Renamed to rabbitpy."
+        url: https://github.com/gmr/rmqid
   celery:
     name: Celery
     summary: "Celery is an asynchronous task queue/job queue based on distributed message passing"
