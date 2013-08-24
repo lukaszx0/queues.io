@@ -30,40 +30,70 @@
 }
 
 //colors: http://www.colourlovers.com/palette/2964362/Alice_in_Wonderland
+// $light_blue: #466B82;
+// $dark_blue: #67A0AB;
+// $light_gray: #ddd;
+// $dark_gray: #bfbfbf;
 
-$light_blue: #466B82;
-$dark_blue: #67A0AB;
-$light_gray: #ddd;
-$dark_gray: #bfbfbf;
+//colors: http://www.colourlovers.com/web/trends/websites/7853/KICKSTARTER
+$text: #242729;
+$link: #C6491A;
+$background: #FDFFE3;
+$col: #eee;
+$highlight: #D3741C;
+
 
 body {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  background: #EBEEF5;
-  padding: 20px;
+  background: #fff;
+  padding: 0;
+}
+
+.main_content {
+  padding: 0 15px 20px 15px;
+}
+
+p,
+li {
+  line-height: 1.5em;
 }
 
 a {
-  color: #67A0AB;
-  text-decoration: none;
+  color: $link;
+  text-decoration: underline;
   font-weight: normal;
+
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
 #heading {
-  margin-bottom: 50px;
+  background: $col;
+  padding: 10px 0;
+
   h1 {
-    margin: 0px;
-    margin-bottom: 5px;
-    font-size: 50px;
-    color: $light_blue;
+    font-size: 4.125em;
     font-family: 'Bree Serif', serif;
-    font-size: 64px;
+    color: $text;
+    margin: 0 0 5px 0;
+    padding: 0 15px;
   }
-  sub {
-    color: $dark_blue;
-    font-size: 15px;
+
+  p {
+    color: $text;
+    padding: 0 15px;
+  }
+}
+
+h2 {
+  font-size: 2.5em;
+  font-family: 'Bree Serif', serif;
+  color: $text;
+  border-bottom: 1px solid $col;
+  margin: 15px;
+  a {
+    color: $text;
   }
 }
 
@@ -72,9 +102,9 @@ footer {
   color: #ddd;
 }
 
-#wrapper {
+.wrapper {
   margin: 0px auto;
-  width: 970px;
+  max-width: 970px;
 }
 
 .github-ribbon {
@@ -85,58 +115,95 @@ footer {
 }
 
 #about {
-  
+  padding-bottom: 0;
 }
 
 #projects {
-  dt {
-    .title {
-      padding: 5px;
-      border-bottom: 2px solid $light_gray;
-      display: block;
-      float: left;
-      .project_name {
-        color: black;
-        font-weight: bold;
-      }
-    }
-    .tags {
-      list-style-type: none;
-      margin: 0 10px;
-      padding: 7px 0;
-      float: left;
-      li {
-        display: block;
-        float: left;
-        margin-right: 5px;
-        background: #ccc;
-        color: black;
-        font-size: 11px;
-        padding: 3px 5px;
-        border-radius: 5px;
-      }
-    }
-    .anchor {
-      display: block;
-      float: left;
-      margin: 10px;
-      padding: 0;
-      span {
-        display: none;
-      }
-    }
+  h2 {
+    margin-top: 0;
   }
 
-  dd {
-    margin-bottom: 40px;
+  article {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid $col;
+
+    .main_content {
+      padding: 0;
+    }
+
     h3 {
-      font-size: 15px;
+      font-family: 'Bree Serif', serif;
+      font-size: 1.7em;
+      margin: 0;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .project_url {
+      margin-bottom: 0;
+
+
+      a {
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+
+        background: $link;
+        padding: 4px 10px;
+        margin: 0;
+        color: #fff;
+        text-decoration: none;
+
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px;
+
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+        &:hover {
+          opacity: .85;
+        }
+      }
+    }
+
+    .tags {
+      margin: 0;
+      padding: 10px 0;
+
+      li {
+        display: inline-block;
+        list-style: none;
+
+        &.tag {
+          background: $text;
+          color: #fff;
+          padding: 3px 6px;
+          text-transform: uppercase;
+          font-size: .65em;
+
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -o-border-radius: 5px;
+          border-radius: 5px;
+        }
+      }
     }
   }
 
   .links {
     .host {
-      color: $dark_gray;
+      color: $link;
     }
   }
 }
