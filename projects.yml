@@ -441,4 +441,16 @@ projects:
       - mqtt
       - pubsub
     links:
+  eaglemq:
+    name: EagleMQ
+    summary: "EagleMQ is an open source, high-performance and lightweight queue manager"
+    url: http://eaglemq.com/
+    tags:
+      - c
+      - ownprotocol
+    links:
+      - text: "Main documentation"
+        url: http://www.eaglemq.com/documentation
+      - text: "Введение в EagleMQ (Russian)"
+        url: http://www.pvsm.ru/veb-razrabotka/37903/print/
       
