@@ -13,85 +13,91 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <div id="wrapper">
-      <a href="https://github.com/strzalek/queues.io"><img class="github-ribbon" src="/img/github_ribbon.png" alt="Fork me on GitHub"></a>
-      <header id="heading">
+
+    <a href="https://github.com/strzalek/queues.io"><img class="github-ribbon" src="/img/github_ribbon.png" alt="Fork me on GitHub"></a>
+    <header id="heading">
+      <div class="wrapper">
         <h1>Queues</h1>
-        <sub>Job queues, message queues and other queues. Almost all of them in one place.</sub>
-      </header>
+        <p>Job queues, message queues and other queues. Almost all of them in one place.</p>
+      </div>
+    </header>
+
+    <div class="wrapper">
 
       <article id="about">
         <header>
           <h2>About</h2>
         </header>
-        <p>
-          There are many queueing systems out there. Each one of them is different
-          and was created for solving certain problems. This page tries to
-          collect the libraries that are widely popular and have a successful
-          record of running on (big) production systems.
-        </p>
-        <p>
-          The goal is to create a quality list of queues with a collection of
-          articles, blog posts, slides, and videos about them. After reading the
-          linked articles, you should have a good idea about: the pros and cons
-          of each queue, a basic understanding of how the queue works, and 
-          what each queue is trying to achieve. Basically, you should have
-          all the information you need to decide which queue will best fit your
-          needs.
-        </p>
-        <p>
-          The whole site is <%=link_to "open source",
-          "https://github.com/strzalek/queues.io" %> and is edited on a daily basis.
-          If you find any mistakes or see something missing, feel free to post an issue
-          or send a pull request. All contributions are welcome! Thanks.
-        </p>
+        <div class="main_content">
+          <p>
+            There are many queueing systems out there. Each one of them is different
+            and was created for solving certain problems. This page tries to
+            collect the libraries that are widely popular and have a successful
+            record of running on (big) production systems.
+          </p>
+          <p>
+            The goal is to create a quality list of queues with a collection of
+            articles, blog posts, slides, and videos about them. After reading the
+            linked articles, you should have a good idea about: the pros and cons
+            of each queue, a basic understanding of how the queue works, and
+            what each queue is trying to achieve. Basically, you should have
+            all the information you need to decide which queue will best fit your
+            needs.
+          </p>
+          <p>
+            The whole site is <%=link_to "open source",
+            "https://github.com/strzalek/queues.io" %> and is edited on a daily basis.
+            If you find any mistakes or see something missing, feel free to post an issue
+            or send a pull request. All contributions are welcome! Thanks.
+          </p>
+        </div>
       </article>
 
-      <article id="projects">
+      <section id="projects">
         <header>
           <h2>Projects</h2>
         </header>
 
-        <dl>
-          <% projects.each do |symbol, project| %>
-            <dt class="clearfix">
-              <span class="title">
-                <a name="<%= symbol %>" href="#<%= symbol %>" class="project_name"><%= project["name"] %></a>
-                <a href="<%= project["url"] %>" class="project_url"><%= project["url"] %></a>
-              </span>
+        <% projects.each do |symbol, project| %>
+        <article>
+          <header class="clearfix">
+            <h3><a name="<%= symbol %>" href="#<%= symbol %>" class="project_name"><%= project["name"] %></a></h3>
+          </header>
 
-              <% if !project["tags"].nil? %>
-                <ul class="tags">
-                  <% project["tags"].each do |tag| %>
-                    <li><%= tag %></li>
-                  <% end %>
-                </ul>
-              <% end %>
-            </dt>
-            <dd>
-              <p><%= project["summary"] %></p>
-              <% if !project["description"].nil? %>
-                <ul class="desc">
-                  <% project["description"].each do |point| %>
-                    <li><%= point %></li>
-                  <% end %>
-                </ul>
-              <% end %>
+          <p class="project_url"><a href="<%= project["url"] %>"><%= project["url"] %></a></p>
 
-              <h3>Resources</h3>
+          <div class="main_content">
 
-              <ul class="links">
-                <% project["links"].each do |link| %>
-                  <li>
-                    <%= link_to(link["text"], link["url"]) %>
-                    <span class="host"><%= url_host(link["url"]) %></span>
-                  </li>
+            <% if !project["tags"].nil? %>
+              <ul class="tags">
+                <% project["tags"].each do |tag| %>
+                  <li class="tag"><%= tag %></li>
                 <% end %>
               </ul>
-            </dd>
-          <% end %>
-        </dl>
-      </article>
+            <% end %>
+            <p><%= project["summary"] %></p>
+            <% if !project["description"].nil? %>
+              <ul class="desc">
+                <% project["description"].each do |point| %>
+                  <li><%= point %></li>
+                <% end %>
+              </ul>
+            <% end %>
+
+            <h4>Resources</h4>
+
+            <ul class="links">
+              <% project["links"].each do |link| %>
+                <li>
+                  <%= link_to(link["text"], link["url"]) %>
+                  <span class="host"><%= url_host(link["url"]) %></span>
+                </li>
+              <% end %>
+            </ul>
+          </div>
+        </article>
+        <% end %>
+      </section>
 
       <footer>
         by <%= link_to "@strzalek", "https://github.com/strzalek" %>
