@@ -178,6 +178,8 @@ projects:
         url: http://devincharge.com/introducing-zuq/
       - text: "ZeroMQ via C#: Introduction"
         url: http://www.codeproject.com/Articles/488207/ZeroMQ-via-Csharp-Introduction
+      - text: "Node.js bindings to the zeromq library"
+        url: https://github.com/JustinTulloss/zeromq.node
   crossroadio:
     name: "Crossroads I/O"
     url: http://www.crossroads.io/
