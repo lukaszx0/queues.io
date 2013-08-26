@@ -32,6 +32,25 @@ $ brew install s3cmd
 
 # Contributing
 
+## Guidelines
+
+I want queues.io to be opinionated page with quality resources about queueing
+projects. To achieve this I wrote some bullet points I'd like people stick with
+when adding new stuff:
+
+  * Project should consist of `name`, `summary`, `url`, `tags`, `links`
+  * There should be at least one tag, which should be language/technology in
+    which it was created. Other tags can describe for example database used on
+    which solution is based (like redis)
+  * There should be at least one link about the library
+  * Links should not point to documentation, client libraries or wiki pages.
+    They should be well written, valuable blog posts, articles which are harder
+    to find than resources provided by creators.
+
+If you want add new library or change/add something to existing one, please stick to t
+
+## Github workflow
+
 I would like this to be a community effort. If there's any lib missing, or you
 know cool links to articles/videos/slides about ones that are listed, feel free
 to add them. I open for any contribution.
