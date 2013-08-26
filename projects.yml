@@ -32,6 +32,8 @@ projects:
         url: https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_MRG/1.3/html-single/Programming_in_Apache_Qpid/index.html
       - text: "QpidComponents.org is an open source development community dedicated to plugins and tools for enterprise-grade messaging in Apache Qpid"
         url: http://qpidcomponents.org/
+      - text: "How to use the Java Message Service (JMS) API with Service Bus & AMQP 1.0"
+        url: http://www.windowsazure.com/en-us/develop/java/how-to-guides/service-bus-amqp/
   hornetq:
     name: HornetQ
     url: http://www.jboss.org/hornetq
@@ -178,6 +180,12 @@ projects:
         url: http://devincharge.com/introducing-zuq/
       - text: "ZeroMQ via C#: Introduction"
         url: http://www.codeproject.com/Articles/488207/ZeroMQ-via-Csharp-Introduction
+      - text: "Design of PUB/SUB subsystem in ØMQ"
+        url: http://250bpm.com/pubsub
+      - text: "ØMQ: The Theoretical Foundation"
+        url: http://250bpm.com/concepts
+      - text: "0MQ: A new approach to messaging"
+        url: http://lwn.net/Articles/370307/
   crossroadio:
     name: "Crossroads I/O"
     url: http://www.crossroads.io/
@@ -286,20 +294,33 @@ projects:
         url: http://www.slideshare.net/carrja99/high-powered-messaging-with
       - text: "RabbitMQ in Action: Distributed Messaging for Everyone (book)"
         url: http://www.amazon.com/RabbitMQ-Action-Distributed-Messaging-Everyone/dp/1935182978
+      - text: "Generating Thousands of PDFs on EC2 with Ruby"
+        url: http://seancribbs.com/tech/2009/12/23/generating-thousands-of-pdfs-on-ec2-with-ruby/
+      - text: "Minimalistic, blocking pure-python RabbitMQ library. Renamed to rabbitpy."
+        url: https://github.com/gmr/
+      - text: "Cloud Message Oriented Architecture with Node.js and RabbitMQ [Video]"
+        url: http://vimeo.com/68226719
   celery:
     name: Celery
-    summary: Distributed Task Queue
+    summary: "Celery is an asynchronous task queue/job queue based on distributed message passing"
     url: http://www.celeryproject.org/
     tags:
       - python
+      - task queue
     links:
+      - text: "What’s new in Celery 3.0"
+        url: http://docs.celeryproject.org/en/latest/whatsnew-3.0.html
       - text: "Using Celery for queuing requests"
         url: https://blog.serverdensity.com/using-celery-for-queuing-requests/
       - text: "An Introduction to Celery by Gilang Chandrasa (slides)"
         url: https://speakerdeck.com/gchandrasa/an-introduction-to-celery
+      - text: "Advanced Celery (video)"
+        url: http://architects.dzone.com/articles/advanced-celery
+      - text: "First Steps with Celery"
+        url: http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html
   rq:
     name: RQ
-    summary: RQ (Redis Queue) is a simple Python library for queueing jobs and processing them in the background with workers
+    summary: "RQ (Redis Queue) is a simple Python library for queueing jobs and processing them in the background with workers" 
     url: http://python-rq.org/
     tags:
       - python
@@ -346,6 +367,10 @@ projects:
     links:
       - text: "Introduction to Messaging With Apache ActiveMQ - Bruce Snyder (video)"
         url: https://vimeo.com/12654513
+      - text: "ActiveMQ and .NET combined!"
+        url: http://java.dzone.com/articles/activemq-and-net-combined
+      - text: "ActiveMQ In Action Example Source Code"
+        url: https://code.google.com/p/activemq-in-action/
   marconi:
     name: Marconi
     summary: "Marconi is a queuing and notification service made by and for OpenStack, but not only for it"
