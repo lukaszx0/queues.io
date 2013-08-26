@@ -1,6 +1,6 @@
 # [Queues.io](http://queues.io)
 
-![screenshot](http://f.cl.ly/items/3X1e0G0y0f1m033g2u0s/queues-io.png)
+![screenshot](https://s3.amazonaws.com/f.cl.ly/items/3B1k0I2b120K1O0c1P3C/queues-io-2.png)
 
 There's a lot of libraries in many different languages, using various
 technologies, implementing "queuing".
