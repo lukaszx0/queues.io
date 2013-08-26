@@ -202,27 +202,6 @@ projects:
         url: http://lists.zeromq.org/pipermail/zeromq-dev/2012-March/016429.html
       - text: "ZeroMQ vs Crossroads I/O"
         url: http://stackoverflow.com/questions/13494033/zeromq-vs-crossroads-i-o
-  nanomsg:
-    name: Nanomsg
-    url: http://nanomsg.org/
-    summary: "nanomsg library is a high-performance implementation of several "scalability protocols". Scalability protocol's job is to define how multiple applications communicate to form a single distributed application"
-    tags:
-      - zeromq
-      - socket
-      - ownprotocol
-      - pubsub
-      - c
-    links:
-      - text: "Nanomsg, the Next Gen ZeroMQ, is Here"
-        url: http://architects.dzone.com/articles/nanomsg-next-gen-zeromq-here
-      - text: "How to Write a Language Binding for nanomsg"
-        url: http://250bpm.com/blog:21
-      - text: "Optimising Subscriptions in nanomsg"
-        url: http://250bpm.com/blog:19
-      - text: "Priotitised Load Balancing with nanomsg"
-        url: http://250bpm.com/blog:14
-      - text: "Binding nanomsg with melange"
-        url: http://dylanfoundry.org/2013/01/25/binding-nanomsg-with-melange/
   sidekiq:
     name: Sidekiq
     url: http://sidekiq.org/
@@ -388,6 +367,10 @@ projects:
     links:
       - text: "Introduction to Messaging With Apache ActiveMQ - Bruce Snyder (video)"
         url: https://vimeo.com/12654513
+      - text: "ActiveMQ and .NET combined!"
+        url: http://java.dzone.com/articles/activemq-and-net-combined
+      - text: "ActiveMQ In Action Example Source Code"
+        url: https://code.google.com/p/activemq-in-action/
   marconi:
     name: Marconi
     summary: "Marconi is a queuing and notification service made by and for OpenStack, but not only for it"
@@ -403,48 +386,3 @@ projects:
         url: http://www.youtube.com/watch?v=henTTZWtt2k
       - text: "Marconi Queuing and Notification service for OpenStack"
         url: http://www.youtube.com/watch?v=iNOd7-_TdDo
-  snakemq:
-    name: snakeMQ
-    summary: "snakeMQ is a small cross-platform async brokerless pure Python library for easy and reliable communication between hosts. "
-    url: http://www.snakemq.net/
-    tags:
-      - python
-      - brokerless
-      - crossplatform
-      - library
-      - ownprotocol
-    links:
-      - text: "Github source code repo"
-        url: https://github.com/dsiroky/snakemq
-  kuyruk:
-    name: Kuyruk
-    summary: "Simple and easy way of distributing tasks (over AMQP with RabbitMQ) to run on servers."
-    url: https://kuyruk.readthedocs.org/en/latest/
-    tags:
-      - python
-      - task
-      - amqp
-    links:
-      - text: "Getting Started"
-        url: https://kuyruk.readthedocs.org/en/latest/gettingstarted.html
-  hivemq:
-    name: HiveMQ
-    summary: "HiveMQ is a MQTT broker, specifically for enterprises which find themself in the emerging age of Machine-to-Machine communication (M2M) and the Internet of Things. It was built from the ground up with maximum scalability, easy management and security in mind."
-    url: http://www.hivemq.com/
-    tags:
-      - mqtt
-      - pubsub
-    links:
-  eaglemq:
-    name: EagleMQ
-    summary: "EagleMQ is an open source, high-performance and lightweight queue manager"
-    url: http://eaglemq.com/
-    tags:
-      - c
-      - ownprotocol
-    links:
-      - text: "Main documentation"
-        url: http://www.eaglemq.com/documentation
-      - text: "Введение в EagleMQ (Russian)"
-        url: http://www.pvsm.ru/veb-razrabotka/37903/print/
-      
