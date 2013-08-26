@@ -32,6 +32,8 @@ projects:
         url: https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_MRG/1.3/html-single/Programming_in_Apache_Qpid/index.html
       - text: "QpidComponents.org is an open source development community dedicated to plugins and tools for enterprise-grade messaging in Apache Qpid"
         url: http://qpidcomponents.org/
+      - text: "How to use the Java Message Service (JMS) API with Service Bus & AMQP 1.0"
+        url: http://www.windowsazure.com/en-us/develop/java/how-to-guides/service-bus-amqp/
   hornetq:
     name: HornetQ
     url: http://www.jboss.org/hornetq
@@ -178,6 +180,12 @@ projects:
         url: http://devincharge.com/introducing-zuq/
       - text: "ZeroMQ via C#: Introduction"
         url: http://www.codeproject.com/Articles/488207/ZeroMQ-via-Csharp-Introduction
+      - text: "Design of PUB/SUB subsystem in ØMQ"
+        url: http://250bpm.com/pubsub
+      - text: "ØMQ: The Theoretical Foundation"
+        url: http://250bpm.com/concepts
+      - text: "0MQ: A new approach to messaging"
+        url: http://lwn.net/Articles/370307/
   crossroadio:
     name: "Crossroads I/O"
     url: http://www.crossroads.io/
@@ -194,6 +202,27 @@ projects:
         url: http://lists.zeromq.org/pipermail/zeromq-dev/2012-March/016429.html
       - text: "ZeroMQ vs Crossroads I/O"
         url: http://stackoverflow.com/questions/13494033/zeromq-vs-crossroads-i-o
+  nanomsg:
+    name: Nanomsg
+    url: http://nanomsg.org/
+    summary: "nanomsg library is a high-performance implementation of several "scalability protocols". Scalability protocol's job is to define how multiple applications communicate to form a single distributed application"
+    tags:
+      - zeromq
+      - socket
+      - ownprotocol
+      - pubsub
+      - c
+    links:
+      - text: "Nanomsg, the Next Gen ZeroMQ, is Here"
+        url: http://architects.dzone.com/articles/nanomsg-next-gen-zeromq-here
+      - text: "How to Write a Language Binding for nanomsg"
+        url: http://250bpm.com/blog:21
+      - text: "Optimising Subscriptions in nanomsg"
+        url: http://250bpm.com/blog:19
+      - text: "Priotitised Load Balancing with nanomsg"
+        url: http://250bpm.com/blog:14
+      - text: "Binding nanomsg with melange"
+        url: http://dylanfoundry.org/2013/01/25/binding-nanomsg-with-melange/
   sidekiq:
     name: Sidekiq
     url: http://sidekiq.org/
@@ -286,20 +315,33 @@ projects:
         url: http://www.slideshare.net/carrja99/high-powered-messaging-with
       - text: "RabbitMQ in Action: Distributed Messaging for Everyone (book)"
         url: http://www.amazon.com/RabbitMQ-Action-Distributed-Messaging-Everyone/dp/1935182978
+      - text: "Generating Thousands of PDFs on EC2 with Ruby"
+        url: http://seancribbs.com/tech/2009/12/23/generating-thousands-of-pdfs-on-ec2-with-ruby/
+      - text: "Minimalistic, blocking pure-python RabbitMQ library. Renamed to rabbitpy."
+        url: https://github.com/gmr/
+      - text: "Cloud Message Oriented Architecture with Node.js and RabbitMQ [Video]"
+        url: http://vimeo.com/68226719
   celery:
     name: Celery
-    summary: Distributed Task Queue
+    summary: "Celery is an asynchronous task queue/job queue based on distributed message passing"
     url: http://www.celeryproject.org/
     tags:
       - python
+      - task queue
     links:
+      - text: "What’s new in Celery 3.0"
+        url: http://docs.celeryproject.org/en/latest/whatsnew-3.0.html
       - text: "Using Celery for queuing requests"
         url: https://blog.serverdensity.com/using-celery-for-queuing-requests/
       - text: "An Introduction to Celery by Gilang Chandrasa (slides)"
         url: https://speakerdeck.com/gchandrasa/an-introduction-to-celery
+      - text: "Advanced Celery (video)"
+        url: http://architects.dzone.com/articles/advanced-celery
+      - text: "First Steps with Celery"
+        url: http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html
   rq:
     name: RQ
-    summary: RQ (Redis Queue) is a simple Python library for queueing jobs and processing them in the background with workers
+    summary: "RQ (Redis Queue) is a simple Python library for queueing jobs and processing them in the background with workers" 
     url: http://python-rq.org/
     tags:
       - python
@@ -361,3 +403,48 @@ projects:
         url: http://www.youtube.com/watch?v=henTTZWtt2k
       - text: "Marconi Queuing and Notification service for OpenStack"
         url: http://www.youtube.com/watch?v=iNOd7-_TdDo
+  snakemq:
+    name: snakeMQ
+    summary: "snakeMQ is a small cross-platform async brokerless pure Python library for easy and reliable communication between hosts. "
+    url: http://www.snakemq.net/
+    tags:
+      - python
+      - brokerless
+      - crossplatform
+      - library
+      - ownprotocol
+    links:
+      - text: "Github source code repo"
+        url: https://github.com/dsiroky/snakemq
+  kuyruk:
+    name: Kuyruk
+    summary: "Simple and easy way of distributing tasks (over AMQP with RabbitMQ) to run on servers."
+    url: https://kuyruk.readthedocs.org/en/latest/
+    tags:
+      - python
+      - task
+      - amqp
+    links:
+      - text: "Getting Started"
+        url: https://kuyruk.readthedocs.org/en/latest/gettingstarted.html
+  hivemq:
+    name: HiveMQ
+    summary: "HiveMQ is a MQTT broker, specifically for enterprises which find themself in the emerging age of Machine-to-Machine communication (M2M) and the Internet of Things. It was built from the ground up with maximum scalability, easy management and security in mind."
+    url: http://www.hivemq.com/
+    tags:
+      - mqtt
+      - pubsub
+    links:
+  eaglemq:
+    name: EagleMQ
+    summary: "EagleMQ is an open source, high-performance and lightweight queue manager"
+    url: http://eaglemq.com/
+    tags:
+      - c
+      - ownprotocol
+    links:
+      - text: "Main documentation"
+        url: http://www.eaglemq.com/documentation
+      - text: "Введение в EagleMQ (Russian)"
+        url: http://www.pvsm.ru/veb-razrabotka/37903/print/
+      
