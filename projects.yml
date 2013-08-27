@@ -134,6 +134,8 @@ projects:
         url: http://www.michael-noll.com/blog/2013/03/13/running-a-multi-broker-apache-kafka-cluster-on-a-single-node/
       - text: "Introduction and Overview of Apache Kafka, TriHUG July 23, 2013 [Presentation]"
         url: http://www.slideshare.net/mumrah/kafka-talk-tri-hug
+      - text: "Intra-cluster Replication in Apache Kafka"
+        url: "http://engineering.linkedin.com/kafka/intra-cluster-replication-apache-kafka"
   nsq:
     name: NSQ
     url: https://github.com/bitly/nsq
