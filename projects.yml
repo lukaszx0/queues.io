@@ -365,3 +365,16 @@ projects:
         url: http://www.youtube.com/watch?v=henTTZWtt2k
       - text: "Marconi Queuing and Notification service for OpenStack"
         url: http://www.youtube.com/watch?v=iNOd7-_TdDo
+  message-bus:
+    name: Message Bus
+    summary: "Message bus is a distributed messaging platform built with HornetQ, used extensively at Groupon."
+    url: https://github.com/groupon/Message-Bus
+    tags:
+      - hornetq
+      - java
+      - ruby
+    links:
+      - text: "Building a Distributed Messaging System"
+        url: https://engineering.groupon.com/2013/hornetq/building-a-distributed-messaging-system/
+      - text: "Reliable Distributed Messaging with HornetQ"
+        url: http://www.jboss.org/dms/judcon/2013unitedstates/presentations/judcon2013_day3track1session5.pdf
