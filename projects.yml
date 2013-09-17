@@ -524,3 +524,16 @@ popular:
         url: https://github.com/coleifer/huey
       - text: "Huey, a lightweight task queue for python"
         url: http://charlesleifer.com/blog/huey-lightweight-task-queue-python/
+  message-bus:
+    name: Message Bus
+    summary: "Message bus is a distributed messaging platform built with HornetQ, used extensively at Groupon."
+    url: https://github.com/groupon/Message-Bus
+    tags:
+      - hornetq
+      - java
+      - ruby
+    links:
+      - text: "Building a Distributed Messaging System"
+        url: https://engineering.groupon.com/2013/hornetq/building-a-distributed-messaging-system/
+      - text: "Reliable Distributed Messaging with HornetQ"
+        url: http://www.jboss.org/dms/judcon/2013unitedstates/presentations/judcon2013_day3track1session5.pdf
