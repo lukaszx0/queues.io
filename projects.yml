@@ -497,6 +497,20 @@ popular:
     links:
       - text: "Source on GitHub"
         url: http://github.com/caplogic/mappedbus
+  qdb:
+    name: QDB
+    summary: "QDB is a Persistent Message Queue With Replay support"
+    url: http://qdb.io/
+    tags:
+      - java
+      - persistent
+      - replay
+      - backup
+    links:
+      - text: "Source on Github"
+        url: https://github.com/qdb-io/qdb-server
+      - text: "ANN QDB 0.4.4 Released with backup for RabbitMQ queues"
+        url: http://rabbitmq.1065348.n5.nabble.com/ANN-QDB-0-4-4-Released-with-backup-for-RabbitMQ-queues-td28574.html
 other:
   huey:
     name: huey
