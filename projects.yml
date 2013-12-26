@@ -149,6 +149,8 @@ projects:
         url: https://speakerdeck.com/snakes/nsq-nyc-golang-meetup
       - text: "Stream Processing: Philosophy, Concepts, and Technologies (slides)"
         url: https://speakerdeck.com/danielhfrank/stream-processing-philosophy-concepts-and-technologies
+      - text: "Go Advent Day 22 - A Journey Into NSQ"
+        url: http://blog.gopheracademy.com/day-22-a-journey-into-nsq
   zmq:
     name: ZeroMQ
     url: http://www.zeromq.org/
