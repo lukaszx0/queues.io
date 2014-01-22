@@ -369,3 +369,9 @@ projects:
         url: http://www.youtube.com/watch?v=henTTZWtt2k
       - text: "Marconi Queuing and Notification service for OpenStack"
         url: http://www.youtube.com/watch?v=iNOd7-_TdDo
+  snakemq:
+    name: snakeMQ
+    url: http://www.snakemq.net/
+    summary: "Pure Python message queuing"
+    tags:
+      - python
