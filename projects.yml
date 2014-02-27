@@ -267,7 +267,7 @@ projects:
     name: queue_classic
     summary: "Simple, efficient worker queue for Ruby & PostgreSQL."
     url: https://github.com/ryandotsmith/queue_classic
-    tags:
+    tags:mq
       - ruby
       - postgres
     links:
@@ -328,13 +328,21 @@ projects:
         url: http://www.quora.com/Message-Queueing/How-do-Darner-and-RabbitMQ-compare
   ironmq:
     name: IronMQ
-    summary: "An easy-to-use highly available message queuing service"
+    summary: "An easy-to-use highly available message queuing service. operates on both Rackspace and Amazon. They offer a Dashboard, easy to create webhooks, unlimited queue creation, unicast and multicast Push Queues, integration to papertrail, autoscaling alerts for worker processes, and error queue feature."
     url: http://www.iron.io/mq
     tags:
       - service
     links:
       - text: "Using IronMQ for Delayed Processing and Increasing Scale"
         url: http://developer.rackspace.com/blog/using-ironmq.html
+      - text: "IronMQ documentation"
+        url: http://dev.iron.io/mq/
+      - text: "Client Libraries"
+        url: http://dev.iron.io/mq/libraries/
+      - text: "Iron.io: Blog Post on Push Queues"
+        url: http://blog.iron.io/2013/01/ironmq-push-queues-reliable-message.html
+      - text: "Public Chat for questions about queues"
+        url: http://get.iron.io/chat
   restmq:
     name: RestMQ
     summary: "RestMQ is a message queue which uses HTTP as transport, JSON to format a minimalist protocol and is organized as REST resources. It stands on the shoulder of giants, built over Python, Twisted, Cyclone (a Tornado implementation over twisted) and Redis."
