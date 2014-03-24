@@ -327,23 +327,23 @@ projects:
       - text: "How do Darner and RabbitMQ compare? at Quora"
         url: http://www.quora.com/Message-Queueing/How-do-Darner-and-RabbitMQ-compare
   ironmq:
-      name: IronMQ
-      summary: "An easy-to-use highly available message queuing service. IronMQ is available as a cloud service on Amazon and Rackspace as well as on-premise with Iron.io's enterprise offering."
-      url: http://www.iron.io/mq
-      tags:
-        - go
-        - service
-      links:
-        - text: "Using IronMQ for Delayed Processing and Increasing Scale"
-          url: http://developer.rackspace.com/blog/using-ironmq.html
-        - text: "Message Queues: Comparing Beanstalkd, IronMQ and Amazon SQS"
-          url: http://www.sitepoint.com/message-queues-comparing-beanstalkd-ironmq-amazon-sqs/
-        - text: "Using IronMQ as a Celery Broker"
-          url: http://celery.readthedocs.org/en/latest/getting-started/brokers/ironmq.html
-        - text: "Laravel 4 + IronMQ Push Queues"
-          url: http://blog.iron.io/2013/05/laravel-4-ironmq-push-queues-insane.html
-        - text: "Using IronMQ as a DelayedJob Broker"
-          url: https://github.com/iron-io/delayed_job_ironmq
+    name: IronMQ
+    summary: "IronMQ is an easy-to-use highly available message queuing service. It is available as a cloud service on Amazon and Rackspace as well as on-premise with Iron.io's enterprise offering. Features include a nice dashboard to manage queues, easy to create webhooks, unicast and multicast Push Queues, autoscaling alerts for worker processes, and error queues."
+    url: http://www.iron.io/mq
+    tags:
+      - go
+      - service
+    links:
+      - text: "Using IronMQ for Delayed Processing and Increasing Scale"
+        url: http://developer.rackspace.com/blog/using-ironmq.html
+      - text: "Message Queues: Comparing Beanstalkd, IronMQ and Amazon SQS"
+        url: http://www.sitepoint.com/message-queues-comparing-beanstalkd-ironmq-amazon-sqs/
+      - text: "Using IronMQ as a Celery Broker"
+        url: http://celery.readthedocs.org/en/latest/getting-started/brokers/ironmq.html
+      - text: "Laravel 4 + IronMQ Push Queues"
+        url: http://blog.iron.io/2013/05/laravel-4-ironmq-push-queues-insane.html
+      - text: "Using IronMQ as a DelayedJob Broker"
+        url: https://github.com/iron-io/delayed_job_ironmq
   restmq:
     name: RestMQ
     summary: "RestMQ is a message queue which uses HTTP as transport, JSON to format a minimalist protocol and is organized as REST resources. It stands on the shoulder of giants, built over Python, Twisted, Cyclone (a Tornado implementation over twisted) and Redis."
