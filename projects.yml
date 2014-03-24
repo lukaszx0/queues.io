@@ -334,10 +334,6 @@ projects:
       - go
       - service
     links:
-      - text: "Documentation"
-        url: http://dev.iron.io/mq/
-      - text: "Client Libraries"
-        url: http://dev.iron.io/mq/libraries/
       - text: "Push Queues for Reliable Messaging"
         url: http://blog.iron.io/2013/01/ironmq-push-queues-reliable-message.html
       - text: "Using IronMQ for Delayed Processing and Increasing Scale"
@@ -349,7 +345,7 @@ projects:
       - text: "Laravel 4 + IronMQ Push Queues"
         url: http://blog.iron.io/2013/05/laravel-4-ironmq-push-queues-insane.html
       - text: "Using IronMQ as a DelayedJob Broker"
-        url: https://github.com/iron-io/delayed_job_ironmq
+        url: http://blog.iron.io/2012/08/the-best-backend-for-delayed-job-ironmq.html
   restmq:
     name: RestMQ
     summary: "RestMQ is a message queue which uses HTTP as transport, JSON to format a minimalist protocol and is organized as REST resources. It stands on the shoulder of giants, built over Python, Twisted, Cyclone (a Tornado implementation over twisted) and Redis."
