@@ -334,6 +334,12 @@ projects:
       - go
       - service
     links:
+      - text: "Documentation"
+        url: http://dev.iron.io/mq/
+      - text: "Client Libraries"
+        url: http://dev.iron.io/mq/libraries/
+      - text: "Push Queues for Reliable Messaging"
+        url: http://blog.iron.io/2013/01/ironmq-push-queues-reliable-message.html
       - text: "Using IronMQ for Delayed Processing and Increasing Scale"
         url: http://developer.rackspace.com/blog/using-ironmq.html
       - text: "Message Queues: Comparing Beanstalkd, IronMQ and Amazon SQS"
