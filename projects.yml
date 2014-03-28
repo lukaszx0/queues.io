@@ -281,6 +281,7 @@ projects:
     url: http://www.rabbitmq.com/
     tags:
       - erlang
+      - amqp
     links:
       - text: "RabbitMQ tutorials"
         url: http://www.rabbitmq.com/getstarted.html
