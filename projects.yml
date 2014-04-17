@@ -332,6 +332,23 @@ projects:
     url: http://www.iron.io/mq
     tags:
       - go
+      - ruby 1.9
+      - ruby 2.1
+      - node
+      - python 2.7
+      - python 3.2
+      - php 5.4
+      - java
+      - mono 2.1
+      - mono 3.0 
+      - laravel
+      - celery
+      - rails
+      - on-premise
+      - error queues
+      - autoscale
+      - push queue unicast
+      - push queue multicast
       - service
     links:
       - text: "Push Queues for Reliable Messaging"
