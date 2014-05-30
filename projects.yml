@@ -93,7 +93,7 @@ projects:
       - "Written in C is <b>very fast</b> and <b>lightweight.</b>"
       - "It provides <a href=\"https://raw.github.com/kr/beanstalkd/master/doc/protocol.txt\">simple protocol</a>, inspired by <a href=\"http://memcached.org/\">memcached</a>"
       - "Queues have O(log n) time push and pop operations."
-      - "<a href=\"https://github.com/kr/beanstalkd/wiki/FAQ#are-the-jobs-persistent-what-happens-if-the-power-goes-out\">It can be run in pesistent mode, which will write all jobs to binlog.</a>"
+      - "<a href=\"https://github.com/kr/beanstalkd/wiki/FAQ#are-the-jobs-persistent-what-happens-if-the-power-goes-out\">It can be run in persistent mode, which will write all jobs to binlog.</a>"
       - "<a href=\"https://github.com/kr/beanstalkd/wiki/client-libraries\">Long list of client libraries for many languages</a>"
     tags:
       - c
