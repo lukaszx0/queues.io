@@ -305,6 +305,8 @@ projects:
         url: https://blog.serverdensity.com/using-celery-for-queuing-requests/
       - text: "An Introduction to Celery by Gilang Chandrasa (slides)"
         url: https://speakerdeck.com/gchandrasa/an-introduction-to-celery
+      - text: "Celery - Best Practices"
+        url: https://denibertovic.com/posts/celery-best-practices/
   rq:
     name: RQ
     summary: RQ (Redis Queue) is a simple Python library for queueing jobs and processing them in the background with workers
