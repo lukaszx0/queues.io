@@ -297,6 +297,8 @@ projects:
         url: http://www.slideshare.net/carrja99/high-powered-messaging-with
       - text: "RabbitMQ in Action: Distributed Messaging for Everyone (book)"
         url: http://www.amazon.com/RabbitMQ-Action-Distributed-Messaging-Everyone/dp/1935182978
+      - text: "How Instagram Feeds Work: Celery and RabbitMQ"
+        url: http://blogs.vmware.com/vfabric/2013/04/how-instagram-feeds-work-celery-and-rabbitmq.html
   celery:
     name: Celery
     summary: Distributed Task Queue
