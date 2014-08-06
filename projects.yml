@@ -383,3 +383,17 @@ projects:
         url: http://www.youtube.com/watch?v=henTTZWtt2k
       - text: "Marconi Queuing and Notification service for OpenStack"
         url: http://www.youtube.com/watch?v=iNOd7-_TdDo
+  qdb:
+    name: QDB
+    summary: "QDB is a Persistent Message Queue With Replay support"
+    url: http://qdb.io/
+    tags:
+      - java
+      - persistent
+      - replay
+      - backup
+    links:
+      - text: "Source on Github"
+        url: https://github.com/qdb-io/qdb-server
+      - text: "ANN QDB 0.4.4 Released with backup for RabbitMQ queues"
+        url: http://rabbitmq.1065348.n5.nabble.com/ANN-QDB-0-4-4-Released-with-backup-for-RabbitMQ-queues-td28574.html
