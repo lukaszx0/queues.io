@@ -383,3 +383,24 @@ projects:
         url: http://www.youtube.com/watch?v=henTTZWtt2k
       - text: "Marconi Queuing and Notification service for OpenStack"
         url: http://www.youtube.com/watch?v=iNOd7-_TdDo
+  Kue:
+    name: Kue
+    url: http://learnboost.github.io/kue
+    summary: "A distributed priority job queue backed by redis, built for node.js"
+    description:
+      - Powered by Redis
+      - Delayed jobs
+      - Rich integrated UI
+      - RESTful JSON API
+      - Optional retries with backoff
+      - Graceful shutdown
+    tags:
+      - node.js
+      - redis
+    links:
+      - text: "Implementing a Job Queue with Node.js"
+        url: https://medium.com/node-js-tips-tricks/implementing-a-job-queue-with-node-js-ffcfbc824b01
+      - text: "Introduction to Kue"
+        url: http://www.screenr.com/oyNs
+      - text: "API walkthrough to Kue"
+        url: http://vimeo.com/26963384
