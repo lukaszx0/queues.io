@@ -392,5 +392,5 @@ projects:
       - redis
       - django
     links:
-      - text: "http://charlesleifer.com/blog/huey-lightweight-task-queue-python/"
+      - text: "Huey, a lightweight task queue for python"
         url: http://charlesleifer.com/blog/huey-lightweight-task-queue-python/
