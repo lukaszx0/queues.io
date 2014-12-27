@@ -1,8 +1,10 @@
 projects:
+  # Big Projects
   apollo:
     name: Apollo
     url: http://activemq.apache.org/apollo/
     summary: "ActiveMQ's next generation of messaging."
+    category: big
     tags:
       - java
       - amqp
@@ -19,6 +21,7 @@ projects:
     name: Apache Qpid
     url: http://qpid.apache.org/
     summary: "Apache Qpid™ makes messaging tools that speak AMQP and support many languages and platforms (in C++, Python, Java JMS and .NET)"
+    category: big
     tags:
       - java
       - amqp
@@ -36,6 +39,7 @@ projects:
     name: HornetQ
     url: http://www.jboss.org/hornetq
     summary: "An open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system."
+    category: big
     tags:
       - java
       - amqp
@@ -58,6 +62,7 @@ projects:
       - "Web UI for managing running jobs, active workers etc."
       - "Many plugins (like <a href=\"https://github.com/bvandenbos/resque-scheduler\">resque-scheduler</a>, <a href=\"https://github.com/lantins/resque-retry\">resque-retry</a>)"
       - "Big community"
+    category: big
     tags:
       - ruby
       - redis
@@ -74,6 +79,7 @@ projects:
     name: Delayed::Job
     url: https://github.com/collectiveidea/delayed_job
     summary: "Database based asynchronously priority queue system"
+    category: big
     tags:
       - ruby
       - mysql
@@ -95,6 +101,7 @@ projects:
       - "Queues have O(log n) time push and pop operations."
       - "<a href=\"https://github.com/kr/beanstalkd/wiki/FAQ#are-the-jobs-persistent-what-happens-if-the-power-goes-out\">It can be run in pesistent mode, which will write all jobs to binlog.</a>"
       - "<a href=\"https://github.com/kr/beanstalkd/wiki/client-libraries\">Long list of client libraries for many languages</a>"
+    category: big
     tags:
       - c
     links:
@@ -108,6 +115,7 @@ projects:
     name: SQS - Amazon Simple Queue Service
     url: http://aws.amazon.com/sqs/
     summary: "Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, fully managed queue service."
+    category: big
     tags:
       - service
     links:
@@ -121,6 +129,7 @@ projects:
     name: Apache Kafka
     url: http://kafka.apache.org/
     summary: "Apache Kafka is publish-subscribe messaging rethought as a distributed commit log."
+    category: big
     tags:
       - java
     links:
@@ -140,6 +149,7 @@ projects:
     name: NSQ
     url: https://github.com/bitly/nsq
     summary: realtime distributed message processing at scale
+    category: big
     tags:
       - go
     links:
@@ -155,6 +165,7 @@ projects:
     name: ZeroMQ
     url: http://www.zeromq.org/
     summary: "The Intelligent Transport Layer"
+    category: big
     tags:
       - cpp
     links:
@@ -190,6 +201,7 @@ projects:
     name: "Crossroads I/O"
     url: http://www.crossroads.io/
     summary: "Crossroads I/O ('libxs') is a library for building scalable and high performance distributed applications. It fits between classic BSD sockets, JMS/AMQP-style message queues, and enterprise message-oriented middleware."
+    category: big
     tags:
       - c
       - zeromq
@@ -213,6 +225,7 @@ projects:
       - "Resque Compatibility"
       - "<a href=\"http://sidekiq.org/pro/\">Sidekiq Pro</a> - paid version ($500) with support and additional features (batches, notifications, reliability, metrics)"
       - Fast growing community
+    category: big
     tags:
       - ruby
       - redis
@@ -231,6 +244,7 @@ projects:
     name: Kestrel
     summary: "simple, distributed message queue system"
     url: http://robey.github.io/kestrel/
+    category: big
     tags:
       - scala
     links:
@@ -246,6 +260,7 @@ projects:
     name: Gearman
     summary: Gearman Job Server
     url: http://gearman.org
+    category: big
     tags:
       - c
     links:
@@ -267,6 +282,7 @@ projects:
     name: queue_classic
     summary: "Simple, efficient worker queue for Ruby & PostgreSQL."
     url: https://github.com/ryandotsmith/queue_classic
+    category: big
     tags:
       - ruby
       - postgres
@@ -279,6 +295,7 @@ projects:
     name: RabbitMQ
     summary: Robust messaging for applications
     url: http://www.rabbitmq.com/
+    category: big
     tags:
       - erlang
       - amqp
@@ -299,6 +316,7 @@ projects:
     name: Celery
     summary: Distributed Task Queue
     url: http://www.celeryproject.org/
+    category: big
     tags:
       - python
     links:
@@ -312,6 +330,7 @@ projects:
     name: RQ
     summary: RQ (Redis Queue) is a simple Python library for queueing jobs and processing them in the background with workers
     url: http://python-rq.org/
+    category: big
     tags:
       - python
       - redis
@@ -322,6 +341,7 @@ projects:
     name: Darner
     summary: "simple, lightweight message queue"
     url: https://github.com/wavii/darner
+    category: big
     tags:
       - cpp
     links:
@@ -333,6 +353,7 @@ projects:
     name: IronMQ
     summary: "IronMQ is an easy-to-use highly available message queuing service. It is available as a cloud service on Amazon and Rackspace as well as on-premise with Iron.io's enterprise offering. Features include a nice dashboard to manage queues, easy to create webhooks, unicast and multicast Push Queues, autoscaling alerts for worker processes, and error queues."
     url: http://www.iron.io/mq
+    category: big
     tags:
       - go
       - service
@@ -353,6 +374,7 @@ projects:
     name: RestMQ
     summary: "RestMQ is a message queue which uses HTTP as transport, JSON to format a minimalist protocol and is organized as REST resources. It stands on the shoulder of giants, built over Python, Twisted, Cyclone (a Tornado implementation over twisted) and Redis."
     url: http://restmq.com/
+    category: big
     tags:
       - python
       - redis
@@ -363,6 +385,7 @@ projects:
     name: ActiveMQ
     summary: "Apache ActiveMQ ™ is the most popular and powerful open source messaging and Integration Patterns server."
     url: "http://activemq.apache.org/"
+    category: big
     tags:
       - java
     links:
@@ -372,6 +395,7 @@ projects:
     name: Marconi
     summary: "Marconi is a queuing and notification service made by and for OpenStack, but not only for it"
     url: https://wiki.openstack.org/wiki/Marconi
+    category: big
     tags:
       - openstack
       - python
@@ -383,3 +407,18 @@ projects:
         url: http://www.youtube.com/watch?v=henTTZWtt2k
       - text: "Marconi Queuing and Notification service for OpenStack"
         url: http://www.youtube.com/watch?v=iNOd7-_TdDo
+  # Small Projects
+  huey:
+    name: huey
+    summary: "a little task queue"
+    url: https://huey.readthedocs.org/en/latest/
+    category: small
+    tags:
+      - python
+      - redis
+      - django
+    links:
+      - text: "Source on GitHub"
+        url: https://github.com/coleifer/huey
+      - text: "Huey, a lightweight task queue for python"
+        url: http://charlesleifer.com/blog/huey-lightweight-task-queue-python/
