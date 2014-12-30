@@ -385,3 +385,15 @@ projects:
         url: http://www.youtube.com/watch?v=henTTZWtt2k
       - text: "Marconi Queuing and Notification service for OpenStack"
         url: http://www.youtube.com/watch?v=iNOd7-_TdDo
+  nanomsg:
+    name: nanomsg
+    summary: "nanomsg is a socket library that provides several common communication patterns"
+    url: http://nanomsg.org/
+    tags:
+      - c
+      - zeromq
+    links:
+      - text: "Getting Started with 'nanomsg'"
+        url: http://tim.dysinger.net/posts/2013-09-16-getting-started-with-nanomsg.html
+      - text: "Nanomsg: ZeroMQ done right"
+        url: http://hguemar.fedorapeople.org/slides/nanomsg/presentation.html
