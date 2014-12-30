@@ -383,3 +383,17 @@ projects:
         url: http://www.youtube.com/watch?v=henTTZWtt2k
       - text: "Marconi Queuing and Notification service for OpenStack"
         url: http://www.youtube.com/watch?v=iNOd7-_TdDo
+  azureservicebus:
+    name: Azure Service Bus Queues
+    url: http://msdn.microsoft.com/en-us/library/ee732537.aspx
+    summary: "Azure Service Bus Queues support a brokered messaging communication mode"
+    tags:
+      - service
+      - amqp
+    links:
+      - text: Service Bus
+        url: http://azure.microsoft.com/en-us/documentation/services/service-bus/
+      - text: "How to Use Service Bus Queues"
+        url: http://azure.microsoft.com/en-us/documentation/articles/service-bus-dotnet-how-to-use-queues/
+      - text: "Azure Queues and Service Bus Queues - Compared and Contrasted"
+        url: http://msdn.microsoft.com/library/azure/hh767287.aspx
