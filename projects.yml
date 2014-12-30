@@ -117,6 +117,8 @@ projects:
         url: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/Welcome.html
       - text: "Zend Framework with SQS Adapter (PHP)"
         url: http://framework.zend.com/manual/1.12/ru/zend.service.amazon.sqs.html
+      - text: "A super efficient AWS SQS thread based message processor for Ruby"
+        url: https://github.com/phstc/shoryuken
   kafka:
     name: Apache Kafka
     url: http://kafka.apache.org/
