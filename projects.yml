@@ -385,3 +385,14 @@ projects:
         url: http://www.youtube.com/watch?v=henTTZWtt2k
       - text: "Marconi Queuing and Notification service for OpenStack"
         url: http://www.youtube.com/watch?v=iNOd7-_TdDo
+  huey:
+    name: huey
+    summary: "a little task queue"
+    url: https://huey.readthedocs.org/en/latest/
+    tags:
+      - python
+      - redis
+      - django
+    links:
+      - text: "Huey, a lightweight task queue for python"
+        url: http://charlesleifer.com/blog/huey-lightweight-task-queue-python/
