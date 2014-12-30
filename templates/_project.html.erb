@@ -1,0 +1,37 @@
+<article>
+  <header class="clearfix">
+    <h3><a name="<%= symbol %>" href="#<%= symbol %>" class="project_name"><%= project["name"] %></a></h3>
+  </header>
+
+  <p class="project_url"><a href="<%= project["url"] %>"><%= project["url"] %></a></p>
+
+  <div class="main_content">
+
+    <% if !project["tags"].nil? %>
+      <ul class="tags">
+        <% project["tags"].each do |tag| %>
+          <li class="tag"><%= tag %></li>
+        <% end %>
+      </ul>
+    <% end %>
+    <p><%= project["summary"] %></p>
+    <% if !project["description"].nil? %>
+      <ul class="desc">
+        <% project["description"].each do |point| %>
+          <li><%= point %></li>
+        <% end %>
+      </ul>
+    <% end %>
+
+    <h4>Resources</h4>
+
+    <ul class="links">
+      <% project["links"].each do |link| %>
+        <li>
+          <%= link_to(link["text"], link["url"]) %>
+          <span class="host"><%= url_host(link["url"]) %></span>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</article>
