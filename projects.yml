@@ -15,7 +15,7 @@ projects:
         url: http://www.christianposta.com/blog/?p=262
       - text: "Introducing Apache Apollo: Part II"
         url: http://www.christianposta.com/blog/?p=262
-  qpid: 
+  qpid:
     name: Apache Qpid
     url: http://qpid.apache.org/
     summary: "Apache Qpid™ makes messaging tools that speak AMQP and support many languages and platforms (in C++, Python, Java JMS and .NET)"
@@ -368,10 +368,10 @@ projects:
     links:
       - text: "Introduction to Messaging With Apache ActiveMQ - Bruce Snyder (video)"
         url: https://vimeo.com/12654513
-  marconi:
-    name: Marconi
-    summary: "Marconi is a queuing and notification service made by and for OpenStack, but not only for it"
-    url: https://wiki.openstack.org/wiki/Marconi
+  zaqar:
+    name: Zaqar (ex Marconi)
+    summary: "Zaqar is a queuing and notification service made by and for OpenStack, but not only for it"
+    url: https://wiki.openstack.org/wiki/Zaqar
     tags:
       - openstack
       - python
