@@ -14,7 +14,7 @@ projects:
       - text: "Introducing Apache Apollo: Part I"
         url: http://www.christianposta.com/blog/?p=262
       - text: "Introducing Apache Apollo: Part II"
-        url: http://www.christianposta.com/blog/?p=262
+        url: http://www.christianposta.com/blog/?p=278
   qpid:
     name: Apache Qpid
     url: http://qpid.apache.org/
