@@ -27,16 +27,17 @@ end
 context  = Class.new do
   extend Helpers
 
-  def self.projects
-    @projects ||= YAML.load_file("projects.yml")["projects"].sort_by{ |symbol, project| symbol }
-  end
-
   def self.big_projects
-    projects.select{ |symbol, project| project["category"] == "big" }
+    projects_by_category("big")
   end
 
   def self.small_projects
-    projects.select{ |symbol, project| project["category"] == "small" }
+    projects_by_category("small")
+  end
+
+  def self.projects_by_category(category)
+    @projects ||= YAML.load_file("projects.yml")
+    @projects[category].sort_by{ |symbol, project| symbol }
   end
 end
 
