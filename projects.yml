@@ -397,3 +397,16 @@ projects:
         url: http://tim.dysinger.net/posts/2013-09-16-getting-started-with-nanomsg.html
       - text: "Nanomsg: ZeroMQ done right"
         url: http://hguemar.fedorapeople.org/slides/nanomsg/presentation.html
+  ntorque:
+    name: nTorque
+    summary: "nTorque is a web hook task queue. You can use it from any programming language (that speaks HTTP) to queue up and reliably execute idempotent tasks."
+    url: http://ntorque.com
+    tags:
+      - http
+      - redis
+      - python
+    links:
+      - text: "Documentation"
+        url: http://ntorque.com
+      - text: "Source Code"
+        url: https://github.com/thruflo/ntorque
