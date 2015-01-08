@@ -309,6 +309,8 @@ projects:
         url: https://speakerdeck.com/gchandrasa/an-introduction-to-celery
       - text: "Celery - Best Practices"
         url: https://denibertovic.com/posts/celery-best-practices/
+      - text: "How Instagram Feeds Work: Celery and RabbitMQ"
+        url: http://blogs.vmware.com/vfabric/2013/04/how-instagram-feeds-work-celery-and-rabbitmq.html
   rq:
     name: RQ
     summary: RQ (Redis Queue) is a simple Python library for queueing jobs and processing them in the background with workers
