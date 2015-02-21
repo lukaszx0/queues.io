@@ -1,4 +1,28 @@
 projects:
+  nats:
+    name: NATS
+    url: https://nats.io
+    summary: "NATS is an open-source, high-performance, lightweight cloud messaging system."
+    tags:
+      - go
+      - node
+      - java
+      - ruby
+      - python
+      - scala
+    links:
+      - text: "Dissecting Message Queues"
+        url: http://www.bravenewgeek.com/dissecting-message-queues/
+      - text: "Introducing NATS"
+        url: https://www.apcera.com/blog/introducing-nats/
+      - text: "CloudFoundry Messaging System"
+        url: http://docs.cloudfoundry.org/concepts/architecture/messaging-nats.html
+      - text: "Why CloudFoundry uses NATS"
+        url: http://www.quora.com/Why-does-CloudFoundry-use-NATS-a-specially-written-messaging-system-whereas-OpenStack-uses-AMQP
+      - text: "NATS Node.js client on NPM"
+        url: https://www.npmjs.com/package/nats
+      - text: "Gnatsd Docker Image"
+        url: https://registry.hub.docker.com/u/apcera/gnatsd/
   apollo:
     name: Apollo
     url: http://activemq.apache.org/apollo/
