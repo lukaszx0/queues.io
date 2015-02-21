@@ -197,7 +197,7 @@ projects:
       - text: "The Architecture of Open Source Applications (Volume 2): ZeroMQ"
         url: http://www.aosabook.org/en/zeromq.html
       - text: "Network Autoconfiguration with Go and ØMQ"
-        url: https://github.com/kisom/kyleisom.net/blob/master/source/_posts/2013-02-26-network-autoconfiguration-with-go-and-zmq.markdown
+        url: https://blog.kyleisom.net/2013/02/27/network-autoconfiguration-with-go-and-zeromq/
       - text: "Using ZeroMQ Security (part 1)"
         url: "http://hintjens.com/blog:48"
       - text: "Integrate ZeroMQ, AMQP, JMS WebSphere MQ and more in 2 lines of Python code with Zato"
