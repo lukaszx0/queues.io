@@ -421,3 +421,16 @@ projects:
         url: http://tim.dysinger.net/posts/2013-09-16-getting-started-with-nanomsg.html
       - text: "Nanomsg: ZeroMQ done right"
         url: http://hguemar.fedorapeople.org/slides/nanomsg/presentation.html
+  nats:
+    name: NATS
+    summary: "NATS is an open-source, high-performance, lightweight cloud messaging system."
+    url: http://nats.io/
+    tags:
+      - cloudfoundry
+      - go
+      - ruby
+    links:
+      - text: "Messaging (NATS) | Cloud Foundry Docs"
+        url: http://docs.cloudfoundry.org/concepts/architecture/messaging-nats.html
+      - text: "Learning Cloud Foundry - NATS"
+        url: http://inventorsparadox.blogspot.com/2013/01/learning-cloud-foundry-nats.html
