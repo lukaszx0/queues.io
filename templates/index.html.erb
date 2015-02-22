@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Queues</title>
     <meta name="description" content="Job queues, message queues and other queues. Almost all of them.">
-    <meta name="keywords" content="queue, job queue, work queue, message queue, <%= projects.collect{ |k, v| k }.join(", ") %>">
+    <meta name="keywords" content="queue, job queue, work queue, message queue, <%= popular_projects.collect{ |k, v| k }.join(", ") %>">
     <meta name="viewport" content="width=device-width">
 
     <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
@@ -53,49 +53,23 @@
         </div>
       </article>
 
-      <section id="projects">
+      <section class="projects">
         <header>
-          <h2>Projects</h2>
+          <h2>Popular Projects</h2>
         </header>
 
-        <% projects.each do |symbol, project| %>
-        <article>
-          <header class="clearfix">
-            <h3><a name="<%= symbol %>" href="#<%= symbol %>" class="project_name"><%= project["name"] %></a></h3>
-          </header>
+        <% popular_projects.each do |symbol, project| %>
+          <%= render_partial "project", { symbol: symbol, project: project } %>
+        <% end %>
+      </section>
 
-          <p class="project_url"><a href="<%= project["url"] %>"><%= project["url"] %></a></p>
+      <section class="projects">
+        <header>
+          <h2>Other Projects</h2>
+        </header>
 
-          <div class="main_content">
-
-            <% if !project["tags"].nil? %>
-              <ul class="tags">
-                <% project["tags"].each do |tag| %>
-                  <li class="tag"><%= tag %></li>
-                <% end %>
-              </ul>
-            <% end %>
-            <p><%= project["summary"] %></p>
-            <% if !project["description"].nil? %>
-              <ul class="desc">
-                <% project["description"].each do |point| %>
-                  <li><%= point %></li>
-                <% end %>
-              </ul>
-            <% end %>
-
-            <h4>Resources</h4>
-
-            <ul class="links">
-              <% project["links"].each do |link| %>
-                <li>
-                  <%= link_to(link["text"], link["url"]) %>
-                  <span class="host"><%= url_host(link["url"]) %></span>
-                </li>
-              <% end %>
-            </ul>
-          </div>
-        </article>
+        <% other_projects.each do |symbol, project| %>
+          <%= render_partial "project", { symbol: symbol, project: project } %>
         <% end %>
       </section>
 

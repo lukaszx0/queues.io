@@ -1,4 +1,4 @@
-projects:
+popular:
   nats:
     name: NATS
     url: https://nats.io
@@ -421,3 +421,17 @@ projects:
         url: http://tim.dysinger.net/posts/2013-09-16-getting-started-with-nanomsg.html
       - text: "Nanomsg: ZeroMQ done right"
         url: http://hguemar.fedorapeople.org/slides/nanomsg/presentation.html
+other:
+  huey:
+    name: huey
+    summary: "a little task queue"
+    url: https://huey.readthedocs.org/en/latest/
+    tags:
+      - python
+      - redis
+      - django
+    links:
+      - text: "Source on GitHub"
+        url: https://github.com/coleifer/huey
+      - text: "Huey, a lightweight task queue for python"
+        url: http://charlesleifer.com/blog/huey-lightweight-task-queue-python/
