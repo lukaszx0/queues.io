@@ -321,6 +321,8 @@ popular:
         url: http://www.slideshare.net/carrja99/high-powered-messaging-with
       - text: "RabbitMQ in Action: Distributed Messaging for Everyone (book)"
         url: http://www.amazon.com/RabbitMQ-Action-Distributed-Messaging-Everyone/dp/1935182978
+      - text: "How Instagram Feeds Work: Celery and RabbitMQ"
+        url: http://blogs.vmware.com/vfabric/2013/04/how-instagram-feeds-work-celery-and-rabbitmq.html
   celery:
     name: Celery
     summary: Distributed Task Queue
@@ -334,6 +336,8 @@ popular:
         url: https://speakerdeck.com/gchandrasa/an-introduction-to-celery
       - text: "Celery - Best Practices"
         url: https://denibertovic.com/posts/celery-best-practices/
+      - text: "How Instagram Feeds Work: Celery and RabbitMQ"
+        url: http://blogs.vmware.com/vfabric/2013/04/how-instagram-feeds-work-celery-and-rabbitmq.html
   rq:
     name: RQ
     summary: RQ (Redis Queue) is a simple Python library for queueing jobs and processing them in the background with workers
