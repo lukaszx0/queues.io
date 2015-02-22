@@ -311,6 +311,10 @@ popular:
     links:
       - text: "RabbitMQ tutorials"
         url: http://www.rabbitmq.com/getstarted.html
+      - text: "NYTimes Architecture: No Head, No Master, No Single Point Of Failure"
+        url: http://highscalability.com/blog/2014/1/13/nytimes-architecture-no-head-no-master-no-single-point-of-fa.html
+      - text: "Continuous Integration: Scaling to 74,000 Builds Per Day With Travis CI & RabbitMQ"
+        url: http://blog.gopivotal.com/case-studies-2/continuous-integration-scaling-to-74000-builds-per-day-with-travis-ci-rabbitmq
       - text: "Smalltalk on RabbitMQ and Nanite"
         url: http://www.paperplanes.de/2009/7/8/smalltalk_on_rabbitmq_and_nanite.html
       - text: "22 Billion Served: Julien Genestoux of Superfeedr"
