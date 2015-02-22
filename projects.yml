@@ -175,6 +175,8 @@ popular:
         url: https://speakerdeck.com/snakes/nsq-nyc-golang-meetup
       - text: "Stream Processing: Philosophy, Concepts, and Technologies (slides)"
         url: https://speakerdeck.com/danielhfrank/stream-processing-philosophy-concepts-and-technologies
+      - text: "Realtime Distributed Message Processing at Scale with NSQ (video)"
+        url: http://www.youtube.com/watch?v=IkU8JsxdCAM
       - text: "Go Advent Day 22 - A Journey Into NSQ"
         url: http://blog.gopheracademy.com/day-22-a-journey-into-nsq
   zmq:
