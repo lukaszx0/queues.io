@@ -94,6 +94,9 @@ popular:
         url: http://rubylearning.com/blog/2010/11/08/do-you-know-resque/
       - text: "How Queuing With Resque Works"
         url: http://girders.org/blog/2011/10/30/how-queuing-with-resque-works/
+      - text: "PHP Job Scheduling Client, Worker and Data Broker using php-resque"
+        url: https://github.com/sameg14/resque-demo
+
   delayed_job:
     name: Delayed::Job
     url: https://github.com/collectiveidea/delayed_job
