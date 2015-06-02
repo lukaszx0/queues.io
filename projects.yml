@@ -431,6 +431,19 @@ popular:
         url: http://tim.dysinger.net/posts/2013-09-16-getting-started-with-nanomsg.html
       - text: "Nanomsg: ZeroMQ done right"
         url: http://hguemar.fedorapeople.org/slides/nanomsg/presentation.html
+  mappedbus:
+    name: Mappedbus
+    summary: "A Java based high throughput, low latency message bus, using either a memory mapped file or shared memory as transport."
+    url: http://mappedbus.io/
+    tags:
+      - java
+      - high-throughput
+      - low-latency
+      - message-passing
+      - ipc
+    links:
+      - text: "Source on GitHub"
+      - url: http://github.com/caplogic/mappedbus 
 other:
   huey:
     name: huey
