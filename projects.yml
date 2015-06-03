@@ -148,7 +148,7 @@ popular:
     url: http://kafka.apache.org/
     summary: "Apache Kafka is publish-subscribe messaging rethought as a distributed commit log."
     tags:
-      - java
+      - scala
     links:
       - text: "Open-sourcing Kafka, LinkedIn’s distributed message queue"
         url: http://blog.linkedin.com/2011/01/11/open-source-linkedin-kafka/
