@@ -73,7 +73,7 @@ popular:
         url: http://java.dzone.com/articles/getting-started-hornetq-23
   resque:
     name: Resque
-    url: http://resquework.org/
+    url: https://github.com/resque/resque
     summary: "A rock-solid job queue, written in Ruby, backed by Redis."
     description:
       - "<a href=\"https://github.com/blog/542-introducing-resque\">Build at GitHub as an alternative to existing solutions</a>. Powers GitHub background jobs ever since."
