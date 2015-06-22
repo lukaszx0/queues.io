@@ -283,8 +283,6 @@ popular:
         url: https://speakerdeck.com/coudenysj/gearman-and-zeromq-two-different-animals
       - text: "Gearman: A Job Server made for Scale (Presentation)"
         url: http://www.slideshare.net/mwillbanks/minne-bar-gearman
-      - text: "Scalable architecture with Gearman job server."
-        url: http://www.cirello.org/2012/05/scalable-architecture-with-gearman-job-server/
       - text: "Installing, configuring and running Gearman Job Server + PHP on Ubuntu"
         url: http://www.modernfidelity.co.uk/tech/installing-configuring-and-running-gearman-php-ubuntu
       - text: "Playing with Gearman"
