@@ -59,7 +59,7 @@ popular:
   hornetq:
     name: HornetQ
     url: http://www.jboss.org/hornetq
-    summary: "An open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system."
+    summary: "An open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system (Donated to Apache ActiveMQ community)."
     tags:
       - java
       - amqp
@@ -71,6 +71,8 @@ popular:
         url: http://www.slideshare.net/joshlong/better-living-through-messaging-leveraging-the-hornetq-message-broker-at-shopzilla
       - text: "Getting Started with HornetQ 2.3"
         url: http://java.dzone.com/articles/getting-started-hornetq-23
+      - text: HornetQ Apache donation and Apache Artemis 1.0.0 release 
+        url: http://hornetq.blogspot.co.uk/2015/06/hornetq-apache-donation-and-apache.html
   resque:
     name: Resque
     url: https://github.com/resque/resque
