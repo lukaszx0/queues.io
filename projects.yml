@@ -164,6 +164,31 @@ popular:
         url: http://www.slideshare.net/mumrah/kafka-talk-tri-hug
       - text: "Intra-cluster Replication in Apache Kafka"
         url: "http://engineering.linkedin.com/kafka/intra-cluster-replication-apache-kafka"
+  Kue:
+    name: Kue
+    url: https://github.com/Automattic/kue
+    summary: "A distributed priority job queue backed by redis, built for node.js"
+    description:
+      - Delayed jobs
+      - Optional retries with backoff
+      - Distribution of parallel work load
+      - Job TTL
+      - Job event and progress pubsub
+      - Rich integrated UI
+      - RESTful JSON API
+      - Graceful shutdown
+      - Powered by Redis
+    tags:
+      - node.js
+      - priority
+      - redis
+    links:
+      - text: "Implementing a Job Queue with Node.js"
+        url: https://medium.com/node-js-tips-tricks/implementing-a-job-queue-with-node-js-ffcfbc824b01
+      - text: "Introduction to Kue"
+        url: http://www.screenr.com/oyNs
+      - text: "API walkthrough to Kue"
+        url: http://vimeo.com/26963384
   nsq:
     name: NSQ
     url: https://github.com/bitly/nsq
