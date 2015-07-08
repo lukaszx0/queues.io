@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Queues</title>
     <meta name="description" content="Job queues, message queues and other queues. Almost all of them.">
-    <meta name="keywords" content="queue, job queue, work queue, message queue, <%= projects.collect{ |k, v| k }.join(", ") %>">
+    <meta name="keywords" content="queue, job queue, work queue, message queue, <%= popular_projects.collect{ |k, v| k }.join(", ") %>">
     <meta name="viewport" content="width=device-width">
 
     <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
@@ -46,56 +46,30 @@
           </p>
           <p>
             The whole site is <%=link_to "open source",
-            "https://github.com/strzalek/queues.io" %> and is edited on a daily basis.
+            "https://github.com/strzalek/queues.io" %> and is updated quite frequently.
             If you find any mistakes or see something missing, feel free to post an issue
             or send a pull request. All contributions are welcome! Thanks.
           </p>
         </div>
       </article>
 
-      <section id="projects">
+      <section class="projects">
         <header>
-          <h2>Projects</h2>
+          <h2>Popular Projects</h2>
         </header>
 
-        <% projects.each do |symbol, project| %>
-        <article>
-          <header class="clearfix">
-            <h3><a name="<%= symbol %>" href="#<%= symbol %>" class="project_name"><%= project["name"] %></a></h3>
-          </header>
+        <% popular_projects.each do |symbol, project| %>
+          <%= render_partial "project", { symbol: symbol, project: project } %>
+        <% end %>
+      </section>
 
-          <p class="project_url"><a href="<%= project["url"] %>"><%= project["url"] %></a></p>
+      <section class="projects">
+        <header>
+          <h2>Other Projects</h2>
+        </header>
 
-          <div class="main_content">
-
-            <% if !project["tags"].nil? %>
-              <ul class="tags">
-                <% project["tags"].each do |tag| %>
-                  <li class="tag"><%= tag %></li>
-                <% end %>
-              </ul>
-            <% end %>
-            <p><%= project["summary"] %></p>
-            <% if !project["description"].nil? %>
-              <ul class="desc">
-                <% project["description"].each do |point| %>
-                  <li><%= point %></li>
-                <% end %>
-              </ul>
-            <% end %>
-
-            <h4>Resources</h4>
-
-            <ul class="links">
-              <% project["links"].each do |link| %>
-                <li>
-                  <%= link_to(link["text"], link["url"]) %>
-                  <span class="host"><%= url_host(link["url"]) %></span>
-                </li>
-              <% end %>
-            </ul>
-          </div>
-        </article>
+        <% other_projects.each do |symbol, project| %>
+          <%= render_partial "project", { symbol: symbol, project: project } %>
         <% end %>
       </section>
 
@@ -104,16 +78,14 @@
       </footer>
     </div>
 
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script> -->
     <script src="js/main.js"></script>
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-      var _gaq=[['_setAccount','UA-42761629-1'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src='//www.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-60122281-1', 'auto');
+      ga('send', 'pageview');
     </script>
   </body>
 </html>

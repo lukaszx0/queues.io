@@ -1,4 +1,28 @@
-projects:
+popular:
+  nats:
+    name: NATS
+    url: https://nats.io
+    summary: "NATS is an open-source, high-performance, lightweight cloud messaging system."
+    tags:
+      - go
+      - node
+      - java
+      - ruby
+      - python
+      - scala
+    links:
+      - text: "Dissecting Message Queues"
+        url: http://www.bravenewgeek.com/dissecting-message-queues/
+      - text: "Introducing NATS"
+        url: https://www.apcera.com/blog/introducing-nats/
+      - text: "CloudFoundry Messaging System"
+        url: http://docs.cloudfoundry.org/concepts/architecture/messaging-nats.html
+      - text: "Why CloudFoundry uses NATS"
+        url: http://www.quora.com/Why-does-CloudFoundry-use-NATS-a-specially-written-messaging-system-whereas-OpenStack-uses-AMQP
+      - text: "NATS Node.js client on NPM"
+        url: https://www.npmjs.com/package/nats
+      - text: "Gnatsd Docker Image"
+        url: https://registry.hub.docker.com/u/apcera/gnatsd/
   apollo:
     name: Apollo
     url: http://activemq.apache.org/apollo/
@@ -14,8 +38,8 @@ projects:
       - text: "Introducing Apache Apollo: Part I"
         url: http://www.christianposta.com/blog/?p=262
       - text: "Introducing Apache Apollo: Part II"
-        url: http://www.christianposta.com/blog/?p=262
-  qpid: 
+        url: http://www.christianposta.com/blog/?p=278
+  qpid:
     name: Apache Qpid
     url: http://qpid.apache.org/
     summary: "Apache Qpid™ makes messaging tools that speak AMQP and support many languages and platforms (in C++, Python, Java JMS and .NET)"
@@ -35,7 +59,7 @@ projects:
   hornetq:
     name: HornetQ
     url: http://www.jboss.org/hornetq
-    summary: "An open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system."
+    summary: "An open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system (Donated to Apache ActiveMQ community)."
     tags:
       - java
       - amqp
@@ -47,9 +71,11 @@ projects:
         url: http://www.slideshare.net/joshlong/better-living-through-messaging-leveraging-the-hornetq-message-broker-at-shopzilla
       - text: "Getting Started with HornetQ 2.3"
         url: http://java.dzone.com/articles/getting-started-hornetq-23
+      - text: HornetQ Apache donation and Apache Artemis 1.0.0 release 
+        url: http://hornetq.blogspot.co.uk/2015/06/hornetq-apache-donation-and-apache.html
   resque:
     name: Resque
-    url: http://resquework.org/
+    url: https://github.com/resque/resque
     summary: "A rock-solid job queue, written in Ruby, backed by Redis."
     description:
       - "<a href=\"https://github.com/blog/542-introducing-resque\">Build at GitHub as an alternative to existing solutions</a>. Powers GitHub background jobs ever since."
@@ -93,7 +119,7 @@ projects:
       - "Written in C is <b>very fast</b> and <b>lightweight.</b>"
       - "It provides <a href=\"https://raw.github.com/kr/beanstalkd/master/doc/protocol.txt\">simple protocol</a>, inspired by <a href=\"http://memcached.org/\">memcached</a>"
       - "Queues have O(log n) time push and pop operations."
-      - "<a href=\"https://github.com/kr/beanstalkd/wiki/FAQ#are-the-jobs-persistent-what-happens-if-the-power-goes-out\">It can be run in pesistent mode, which will write all jobs to binlog.</a>"
+      - "<a href=\"https://github.com/kr/beanstalkd/wiki/FAQ#are-the-jobs-persistent-what-happens-if-the-power-goes-out\">It can be run in persistent mode, which will write all jobs to binlog.</a>"
       - "<a href=\"https://github.com/kr/beanstalkd/wiki/client-libraries\">Long list of client libraries for many languages</a>"
     tags:
       - c
@@ -117,12 +143,14 @@ projects:
         url: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/Welcome.html
       - text: "Zend Framework with SQS Adapter (PHP)"
         url: http://framework.zend.com/manual/1.12/ru/zend.service.amazon.sqs.html
+      - text: "A super efficient AWS SQS thread based message processor for Ruby"
+        url: https://github.com/phstc/shoryuken
   kafka:
     name: Apache Kafka
     url: http://kafka.apache.org/
     summary: "Apache Kafka is publish-subscribe messaging rethought as a distributed commit log."
     tags:
-      - java
+      - scala
     links:
       - text: "Open-sourcing Kafka, LinkedIn’s distributed message queue"
         url: http://blog.linkedin.com/2011/01/11/open-source-linkedin-kafka/
@@ -149,6 +177,8 @@ projects:
         url: https://speakerdeck.com/snakes/nsq-nyc-golang-meetup
       - text: "Stream Processing: Philosophy, Concepts, and Technologies (slides)"
         url: https://speakerdeck.com/danielhfrank/stream-processing-philosophy-concepts-and-technologies
+      - text: "Realtime Distributed Message Processing at Scale with NSQ (video)"
+        url: http://www.youtube.com/watch?v=IkU8JsxdCAM
       - text: "Go Advent Day 22 - A Journey Into NSQ"
         url: http://blog.gopheracademy.com/day-22-a-journey-into-nsq
   zmq:
@@ -171,7 +201,7 @@ projects:
       - text: "The Architecture of Open Source Applications (Volume 2): ZeroMQ"
         url: http://www.aosabook.org/en/zeromq.html
       - text: "Network Autoconfiguration with Go and ØMQ"
-        url: http://www.kyleisom.net/blog/2013/02/26/network-autoconfiguration-with-go-and-zmq/
+        url: https://blog.kyleisom.net/2013/02/27/network-autoconfiguration-with-go-and-zeromq/
       - text: "Using ZeroMQ Security (part 1)"
         url: "http://hintjens.com/blog:48"
       - text: "Integrate ZeroMQ, AMQP, JMS WebSphere MQ and more in 2 lines of Python code with Zato"
@@ -211,7 +241,7 @@ projects:
       - "Multithreaded, employs <a href=\"https://github.com/celluloid/celluloid\">Celluloid</a> under the hood"
       - "Web UI"
       - "Resque Compatibility"
-      - "<a href=\"http://sidekiq.org/pro/\">Sidekiq Pro</a> - paid version ($500) with support and additional features (batches, notifications, reliability, metrics)"
+      - "<a href=\"http://sidekiq.org/pro/\">Sidekiq Pro</a> - paid version ($750) with support and additional features (batches, notifications, reliability, metrics)"
       - Fast growing community
     tags:
       - ruby
@@ -255,8 +285,6 @@ projects:
         url: https://speakerdeck.com/coudenysj/gearman-and-zeromq-two-different-animals
       - text: "Gearman: A Job Server made for Scale (Presentation)"
         url: http://www.slideshare.net/mwillbanks/minne-bar-gearman
-      - text: "Scalable architecture with Gearman job server."
-        url: http://www.cirello.org/2012/05/scalable-architecture-with-gearman-job-server/
       - text: "Installing, configuring and running Gearman Job Server + PHP on Ubuntu"
         url: http://www.modernfidelity.co.uk/tech/installing-configuring-and-running-gearman-php-ubuntu
       - text: "Playing with Gearman"
@@ -281,9 +309,14 @@ projects:
     url: http://www.rabbitmq.com/
     tags:
       - erlang
+      - amqp
     links:
       - text: "RabbitMQ tutorials"
         url: http://www.rabbitmq.com/getstarted.html
+      - text: "NYTimes Architecture: No Head, No Master, No Single Point Of Failure"
+        url: http://highscalability.com/blog/2014/1/13/nytimes-architecture-no-head-no-master-no-single-point-of-fa.html
+      - text: "Continuous Integration: Scaling to 74,000 Builds Per Day With Travis CI & RabbitMQ"
+        url: http://blog.gopivotal.com/case-studies-2/continuous-integration-scaling-to-74000-builds-per-day-with-travis-ci-rabbitmq
       - text: "Smalltalk on RabbitMQ and Nanite"
         url: http://www.paperplanes.de/2009/7/8/smalltalk_on_rabbitmq_and_nanite.html
       - text: "22 Billion Served: Julien Genestoux of Superfeedr"
@@ -294,6 +327,8 @@ projects:
         url: http://www.slideshare.net/carrja99/high-powered-messaging-with
       - text: "RabbitMQ in Action: Distributed Messaging for Everyone (book)"
         url: http://www.amazon.com/RabbitMQ-Action-Distributed-Messaging-Everyone/dp/1935182978
+      - text: "How Instagram Feeds Work: Celery and RabbitMQ"
+        url: http://blogs.vmware.com/vfabric/2013/04/how-instagram-feeds-work-celery-and-rabbitmq.html
   celery:
     name: Celery
     summary: Distributed Task Queue
@@ -305,6 +340,10 @@ projects:
         url: https://blog.serverdensity.com/using-celery-for-queuing-requests/
       - text: "An Introduction to Celery by Gilang Chandrasa (slides)"
         url: https://speakerdeck.com/gchandrasa/an-introduction-to-celery
+      - text: "Celery - Best Practices"
+        url: https://denibertovic.com/posts/celery-best-practices/
+      - text: "How Instagram Feeds Work: Celery and RabbitMQ"
+        url: http://blogs.vmware.com/vfabric/2013/04/how-instagram-feeds-work-celery-and-rabbitmq.html
   rq:
     name: RQ
     summary: RQ (Redis Queue) is a simple Python library for queueing jobs and processing them in the background with workers
@@ -365,10 +404,10 @@ projects:
     links:
       - text: "Introduction to Messaging With Apache ActiveMQ - Bruce Snyder (video)"
         url: https://vimeo.com/12654513
-  marconi:
-    name: Marconi
-    summary: "Marconi is a queuing and notification service made by and for OpenStack, but not only for it"
-    url: https://wiki.openstack.org/wiki/Marconi
+  zaqar:
+    name: Zaqar (ex Marconi)
+    summary: "Zaqar is a queuing and notification service made by and for OpenStack, but not only for it"
+    url: https://wiki.openstack.org/wiki/Zaqar
     tags:
       - openstack
       - python
@@ -380,3 +419,42 @@ projects:
         url: http://www.youtube.com/watch?v=henTTZWtt2k
       - text: "Marconi Queuing and Notification service for OpenStack"
         url: http://www.youtube.com/watch?v=iNOd7-_TdDo
+  nanomsg:
+    name: nanomsg
+    summary: "nanomsg is a socket library that provides several common communication patterns"
+    url: http://nanomsg.org/
+    tags:
+      - c
+      - zeromq
+    links:
+      - text: "Getting Started with 'nanomsg'"
+        url: http://tim.dysinger.net/posts/2013-09-16-getting-started-with-nanomsg.html
+      - text: "Nanomsg: ZeroMQ done right"
+        url: http://hguemar.fedorapeople.org/slides/nanomsg/presentation.html
+  mappedbus:
+    name: Mappedbus
+    summary: "A Java based high throughput, low latency message bus, using either a memory mapped file or shared memory as transport."
+    url: http://mappedbus.io/
+    tags:
+      - java
+      - high-throughput
+      - low-latency
+      - message-passing
+      - ipc
+    links:
+      - text: "Source on GitHub"
+      - url: http://github.com/caplogic/mappedbus 
+other:
+  huey:
+    name: huey
+    summary: "a little task queue"
+    url: https://huey.readthedocs.org/en/latest/
+    tags:
+      - python
+      - redis
+      - django
+    links:
+      - text: "Source on GitHub"
+        url: https://github.com/coleifer/huey
+      - text: "Huey, a lightweight task queue for python"
+        url: http://charlesleifer.com/blog/huey-lightweight-task-queue-python/
