@@ -481,3 +481,13 @@ other:
         url: https://github.com/coleifer/huey
       - text: "Huey, a lightweight task queue for python"
         url: http://charlesleifer.com/blog/huey-lightweight-task-queue-python/
+  fantastiq:
+    name: fantastiq
+    summary: "a node.js/Redis job queue"
+    url: https://www.npmjs.com/package/fantastiq
+    tags:
+      - node
+      - redis
+    links:
+      - text: "Source on GitHub"
+        url: https://github.com/Janpot/fantastiq
