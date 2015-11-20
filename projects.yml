@@ -189,7 +189,7 @@ popular:
         url: http://www.slideshare.net/mumrah/kafka-talk-tri-hug
       - text: "Intra-cluster Replication in Apache Kafka"
         url: "http://engineering.linkedin.com/kafka/intra-cluster-replication-apache-kafka"
-  Kue:
+  kue:
     name: Kue
     url: https://github.com/Automattic/kue
     summary: "A distributed priority job queue backed by redis, built for node.js"
