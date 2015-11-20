@@ -295,6 +295,22 @@ popular:
         url: http://www.railstips.org/blog/archives/2012/03/05/misleading-title-about-queueing/
       - text: "Don't Forget About the Kestrel Messaging Queue"
         url: http://java.dzone.com/articles/dont-forget-about-kestrel
+  siberite:
+    name: Siberite
+    summary: "Simple, lightweight, leveldb backed message queue"
+    url: http://siberite.org/
+    description:
+      - Darner rewritten in Go with additional features
+      - Single topic can be consumed multiple times using durable cursors
+      - Uses Kestrel (memcached) protocol
+      - Keeps all messages out of process
+      - Small amount of in-resident memory regardless of queue size
+      - Two-phase reliable fetch
+    tags:
+      - go
+    links:
+      - text: "Source on GitHub"
+        url: https://github.com/bogdanovich/siberite
   gearman:
     name: Gearman
     summary: Gearman Job Server
