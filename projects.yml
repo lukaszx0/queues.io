@@ -13,13 +13,13 @@ popular:
       - python
       - scala
     links:
-      -text: "NATS Documentation"
+      - text: "NATS Documentation"
         url: http://nats.io/documentation/
-      -text: "NATS: High Performance Cloud Native Messaging Written in Go"
+      - text: "NATS: High Performance Cloud Native Messaging Written in Go"
         url: https://blog.gopheracademy.com/advent-2015/nats-high-performance-cloud-native-messaging-written-in-go/
-      -text: "Using NATS instead of HTTP for inter service communication"
+      - text: "Using NATS instead of HTTP for inter service communication"
         url: http://www.diogogmt.com/2016/02/08/benchmarking-nats-and-rest/
-      -text: "Benchmarking Message Queue Latency"
+      - text: "Benchmarking Message Queue Latency"
         url: http://bravenewgeek.com/benchmarking-message-queue-latency/
       - text: "Dissecting Message Queues"
         url: http://www.bravenewgeek.com/dissecting-message-queues/
