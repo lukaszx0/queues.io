@@ -5,12 +5,22 @@ popular:
     summary: "NATS is an open-source, high-performance, lightweight cloud messaging system."
     tags:
       - go
+      - .NET
       - node
+      - nginx
       - java
       - ruby
       - python
       - scala
     links:
+      -text: "NATS Documentation"
+        url: http://nats.io/documentation/
+      -text: "NATS: High Performance Cloud Native Messaging Written in Go"
+        url: https://blog.gopheracademy.com/advent-2015/nats-high-performance-cloud-native-messaging-written-in-go/
+      -text: "Using NATS instead of HTTP for inter service communication"
+        url: http://www.diogogmt.com/2016/02/08/benchmarking-nats-and-rest/
+      -text: "Benchmarking Message Queue Latency"
+        url: http://bravenewgeek.com/benchmarking-message-queue-latency/
       - text: "Dissecting Message Queues"
         url: http://www.bravenewgeek.com/dissecting-message-queues/
       - text: "Introducing NATS"
@@ -71,7 +81,7 @@ popular:
         url: http://www.slideshare.net/joshlong/better-living-through-messaging-leveraging-the-hornetq-message-broker-at-shopzilla
       - text: "Getting Started with HornetQ 2.3"
         url: http://java.dzone.com/articles/getting-started-hornetq-23
-      - text: HornetQ Apache donation and Apache Artemis 1.0.0 release 
+      - text: HornetQ Apache donation and Apache Artemis 1.0.0 release
         url: http://hornetq.blogspot.co.uk/2015/06/hornetq-apache-donation-and-apache.html
   resque:
     name: Resque
@@ -466,7 +476,7 @@ popular:
       - ipc
     links:
       - text: "Source on GitHub"
-      - url: http://github.com/caplogic/mappedbus 
+      - url: http://github.com/caplogic/mappedbus
 other:
   huey:
     name: huey
