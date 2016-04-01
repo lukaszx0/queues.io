@@ -511,7 +511,6 @@ popular:
         url: https://github.com/qdb-io/qdb-server
       - text: "ANN QDB 0.4.4 Released with backup for RabbitMQ queues"
         url: http://rabbitmq.1065348.n5.nabble.com/ANN-QDB-0-4-4-Released-with-backup-for-RabbitMQ-queues-td28574.html
-other:
   huey:
     name: huey
     summary: "a little task queue"
