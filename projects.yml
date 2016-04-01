@@ -236,6 +236,7 @@ popular:
     summary: "The Intelligent Transport Layer"
     tags:
       - cpp
+      - java
     links:
       - text: "ZeroMQ an introduction (Really - the best, must read article!)"
         url: http://nichol.as/zeromq-an-introduction
@@ -265,6 +266,8 @@ popular:
         url: http://blogs.mulesoft.org/lightweight-rpc-with-%C3%B8mq-and-protocol-buffers/
       - text: "ZeroMQ via C#: Introduction"
         url: http://www.codeproject.com/Articles/488207/ZeroMQ-via-Csharp-Introduction
+      - text: "JeroMQ: implemenation in java"
+        url: https://github.com/zeromq/jeromq
   sidekiq:
     name: Sidekiq
     url: http://sidekiq.org/
