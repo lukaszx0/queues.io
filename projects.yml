@@ -39,6 +39,7 @@ popular:
     summary: "ActiveMQ's next generation of messaging."
     tags:
       - java
+      - scala
       - amqp
     links:
       - text: "Apollo Next Generation Message Queuing Posts Some Impressive Benchmarks"
