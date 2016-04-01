@@ -71,7 +71,7 @@ popular:
         url: http://www.slideshare.net/joshlong/better-living-through-messaging-leveraging-the-hornetq-message-broker-at-shopzilla
       - text: "Getting Started with HornetQ 2.3"
         url: http://java.dzone.com/articles/getting-started-hornetq-23
-      - text: HornetQ Apache donation and Apache Artemis 1.0.0 release 
+      - text: HornetQ Apache donation and Apache Artemis 1.0.0 release
         url: http://hornetq.blogspot.co.uk/2015/06/hornetq-apache-donation-and-apache.html
   resque:
     name: Resque
@@ -283,7 +283,7 @@ popular:
   kestrel:
     name: Kestrel
     summary: "simple, distributed message queue system"
-    url: http://robey.github.io/kestrel/
+    url: https://twitter.github.io/kestrel/
     tags:
       - scala
     links:
@@ -466,7 +466,7 @@ popular:
       - ipc
     links:
       - text: "Source on GitHub"
-      - url: http://github.com/caplogic/mappedbus 
+      - url: http://github.com/caplogic/mappedbus
 other:
   huey:
     name: huey
