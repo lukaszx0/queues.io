@@ -37,7 +37,7 @@ context  = Class.new do
 
   def self.projects_by_category(category)
     @projects ||= YAML.load_file("projects.yml")
-    @projects[category].sort_by{ |symbol, project| symbol }
+    (@projects[category] || []).sort_by{ |symbol, project| symbol }
   end
 end
 
