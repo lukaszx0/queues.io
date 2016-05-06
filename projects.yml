@@ -42,7 +42,7 @@ popular:
     links:
       - text: "Getting Started Guide: Welcome"
         url: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/Welcome.html
-      - text: "Developer Guide: hat is Amazon Simple Queue Service?"
+      - text: "Developer Guide: What is Amazon Simple Queue Service?"
         url: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/Welcome.html
       - text: "API Reference"
         url: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/Welcome.html
