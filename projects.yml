@@ -33,6 +33,25 @@ popular:
         url: https://www.npmjs.com/package/nats
       - text: "Gnatsd Docker Image"
         url: https://registry.hub.docker.com/u/apcera/gnatsd/
+  amazon_simple_queue_service:
+    name: Amazon Simple Queue Service (SQS)
+    url: http://aws.amazon.com/sqs/
+    summary: "Amazon Simple Queue Service (Amazon SQS) is a messaging queue service that handles message or work flows between other components in a system."
+    tags:
+      - service
+    links:
+      - text: "Getting Started Guide: Welcome"
+        url: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/Welcome.html
+      - text: "Developer Guide: hat is Amazon Simple Queue Service?"
+        url: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/Welcome.html
+      - text: "API Reference"
+        url: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/Welcome.html
+      - text: "What are the advantages and disadvantages of Beanstalkd as a work queue? at Quora"
+        url: http://www.quora.com/Beanstalk-work-queue/What-are-the-advantages-and-disadvantages-of-Beanstalkd-as-a-work-queue
+      - text: "A super efficient AWS SQS thread based message processor for Ruby"
+        url: https://github.com/phstc/shoryuken
+      - text: "Zend Framework with SQS Adapter (PHP)"
+        url: http://framework.zend.com/manual/1.12/ru/zend.service.amazon.sqs.html
   apollo:
     name: Apollo
     url: http://activemq.apache.org/apollo/
@@ -155,21 +174,6 @@ popular:
         url: http://www.quora.com/Beanstalk-work-queue/What-are-the-advantages-and-disadvantages-of-Beanstalkd-as-a-work-queue
       - text: "Beanstalk Messaging Queue"
         url: http://nubyonrails.com/articles/about-this-blog-beanstalk-messaging-queue
-  sqs:
-    name: SQS - Amazon Simple Queue Service
-    url: http://aws.amazon.com/sqs/
-    summary: "Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, fully managed queue service."
-    tags:
-      - service
-    links:
-      - text: "What are the advantages and disadvantages of Beanstalkd as a work queue? at Quora"
-        url: http://www.quora.com/Beanstalk-work-queue/What-are-the-advantages-and-disadvantages-of-Beanstalkd-as-a-work-queue
-      - text: "What is Amazon Simple Queue Service?"
-        url: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/Welcome.html
-      - text: "Zend Framework with SQS Adapter (PHP)"
-        url: http://framework.zend.com/manual/1.12/ru/zend.service.amazon.sqs.html
-      - text: "A super efficient AWS SQS thread based message processor for Ruby"
-        url: https://github.com/phstc/shoryuken
   kafka:
     name: Apache Kafka
     url: http://kafka.apache.org/
