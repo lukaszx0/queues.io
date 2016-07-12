@@ -401,6 +401,16 @@ popular:
         url: https://denibertovic.com/posts/celery-best-practices/
       - text: "How Instagram Feeds Work: Celery and RabbitMQ"
         url: http://blogs.vmware.com/vfabric/2013/04/how-instagram-feeds-work-celery-and-rabbitmq.html
+  retask:
+    name: Retask
+    summary: Retask is a python module to create and manage distributed task queue/job queue.
+    url: http://retask.readthedocs.io/
+    tags:
+      - python
+      - redis
+    links:
+      - text: "Job/Task queue quick tutorial using retask"
+        url: https://kushaldas.in/posts/jobtask-queue-quick-tutorial-using-retask.html
   rq:
     name: RQ
     summary: RQ (Redis Queue) is a simple Python library for queueing jobs and processing them in the background with workers
