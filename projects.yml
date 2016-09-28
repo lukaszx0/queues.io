@@ -544,7 +544,7 @@ popular:
   chronicle-queue:
     name: Chronicle Queue
     url: http://chronicle.software/products/chronicle-queue/
-    summary: "Persisted queue for recording all messages passed between threads or JVMs to build deterministic state machines. It supports sub-micro-second latencies between JVMs and millions of events per second with one machine. Clustered systems can handle bursts of tens of millions of events per second. Self describing messages allow for long term storage of data (years) even if the schema changes. License Apache v2.0"
+    summary: "Persisted queue for recording all messages passed between threads or JVMs to build deterministic state machines. It supports sub-micro-second latencies between JVMs and millions of events per second using one machine. Clustered systems can handle bursts of tens of millions of events per second. Self describing messages allow for long term storage of data (years) even if the schema changes. License Apache v2.0"
     tags:
       - java
       - C-sharp
