@@ -541,3 +541,27 @@ popular:
         url: https://engineering.groupon.com/2013/hornetq/building-a-distributed-messaging-system/
       - text: "Reliable Distributed Messaging with HornetQ"
         url: http://www.jboss.org/dms/judcon/2013unitedstates/presentations/judcon2013_day3track1session5.pdf
+  chronicle-queue:
+    name: Chronicle Queue
+    url: http://chronicle.software/products/chronicle-queue/
+    summary: "Persisted queue for recording all messages passed between threads or JVMs to build deterministic state machines. It supports sub-micro-second latencies between JVMs and millions of events per second with one machine. Clustered systems can handle bursts of tens of millions of events per second. Self describing messages allow for long term storage of data (years) even if the schema changes. License Apache v2.0"
+    tags:
+      - java
+      - C-sharp
+      - durable
+      - low-latency
+      - high-throughput
+      - ipc
+      - YAML
+      - JSON
+    links:
+      - text: "Getting Started"
+        url: https://github.com/OpenHFT/Chronicle-Queue#chronicle-queue
+      - text: "Frequently Asked Question"
+        url: https://github.com/OpenHFT/Chronicle-Queue/blob/master/docs/FAQ.adoc
+      - text: "Using Chronicle Queue to build high performant microservices"
+        url: https://vanilla-java.github.io/tag/Microservices/
+      - text: "Github Source"
+        url: https://github.com/OpenHFT/Chronicle-Queue
+      - text: "Latest version in Maven Central"
+        url: http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22net.openhft%22%20AND%20a%3A%22chronicle%22
