@@ -541,3 +541,22 @@ popular:
         url: https://engineering.groupon.com/2013/hornetq/building-a-distributed-messaging-system/
       - text: "Reliable Distributed Messaging with HornetQ"
         url: http://www.jboss.org/dms/judcon/2013unitedstates/presentations/judcon2013_day3track1session5.pdf
+
+  rsmq:
+    name: RSMQ
+    summary: "A lightweight message queue for Node.js that uses Redis."
+    url: http://smrchy.github.io/rsmq/
+    tags:
+      - node
+      - redis
+    links:
+      - text: "RSMQ on GitHub"
+        url: https://github.com/smrchy/rsmq
+      - text: "RSMQ Worker Module"
+        url: https://github.com/mpneuried/rsmq-worker
+      - text: "REST interface for RSMQ"
+        url: https://github.com/smrchy/rest-rsmq
+      - text: "Terminal client for RSMQ"
+        url: https://github.com/mpneuried/rsmq-cli
+      - text: "RSMQ on Hacker News"
+        url: https://news.ycombinator.com/item?id=9407367
