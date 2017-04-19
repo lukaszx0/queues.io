@@ -28,7 +28,7 @@ popular:
       - text: "CloudFoundry Messaging System"
         url: http://docs.cloudfoundry.org/concepts/architecture/messaging-nats.html
       - text: "Why CloudFoundry uses NATS"
-        url: http://www.quora.com/Why-does-CloudFoundry-use-NATS-a-specially-written-messaging-system-whereas-OpenStack-uses-AMQP
+        url: http://www.quora.com/Why-does-CloudFoundry-use-NATS-a-specially-written-messaging-system-whereas-OpenStack-uses-AMQP/answer/Derek-Collison
       - text: "NATS Node.js client on NPM"
         url: https://www.npmjs.com/package/nats
       - text: "Gnatsd Docker Image"
@@ -47,7 +47,7 @@ popular:
       - text: "API Reference"
         url: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/Welcome.html
       - text: "What are the advantages and disadvantages of Beanstalkd as a work queue? at Quora"
-        url: http://www.quora.com/Beanstalk-work-queue/What-are-the-advantages-and-disadvantages-of-Beanstalkd-as-a-work-queue
+        url: http://www.quora.com/What-are-the-advantages-and-disadvantages-of-Beanstalkd-as-a-work-queue/answer/Eran-Sandler
       - text: "A super efficient AWS SQS thread based message processor for Ruby"
         url: https://github.com/phstc/shoryuken
       - text: "Zend Framework with SQS Adapter (PHP)"
@@ -171,7 +171,7 @@ popular:
       - text: "#243 Beanstalkd and Stalker - RailsCasts"
         url: http://railscasts.com/episodes/243-beanstalkd-and-stalker
       - text: "What are the advantages and disadvantages of Beanstalkd as a work queue? at Quora"
-        url: http://www.quora.com/Beanstalk-work-queue/What-are-the-advantages-and-disadvantages-of-Beanstalkd-as-a-work-queue
+        url: http://www.quora.com/What-are-the-advantages-and-disadvantages-of-Beanstalkd-as-a-work-queue/answer/Eran-Sandler
       - text: "Beanstalk Messaging Queue"
         url: http://nubyonrails.com/articles/about-this-blog-beanstalk-messaging-queue
   kafka:
@@ -421,7 +421,7 @@ popular:
       - text: "Darner, Wavii’s new queue server: 10x faster, 10x smaller"
         url: http://wavii.wordpress.com/2012/08/13/darner-waviis-new-queue-server-10x-faster-10x-smaller/
       - text: "How do Darner and RabbitMQ compare? at Quora"
-        url: http://www.quora.com/Message-Queueing/How-do-Darner-and-RabbitMQ-compare
+        url: http://www.quora.com/Message-Queuing-How-do-Darner-and-RabbitMQ-compare/answer/Erik-Frey
   ironmq:
     name: IronMQ
     summary: "IronMQ is an easy-to-use highly available message queuing service. It is available as a cloud service on Amazon and Rackspace as well as on-premise with Iron.io's enterprise offering. Features include a nice dashboard to manage queues, easy to create webhooks, unicast and multicast Push Queues, autoscaling alerts for worker processes, and error queues."
