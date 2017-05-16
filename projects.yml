@@ -298,21 +298,6 @@ popular:
         url: http://blog.statuspage.io/kicking-ass-with-sidekiq
       - text: "Sidekiq at LinuxJournal"
         url: http://www.linuxjournal.com/content/sidekiq
-  kestrel:
-    name: Kestrel
-    summary: "simple, distributed message queue system"
-    url: https://twitter.github.io/kestrel/
-    tags:
-      - scala
-    links:
-      - text: "Scarling » Kestrel - Robey"
-        url: http://robey.lag.net/2008/11/27/scarling-to-kestrel.html
-      - text: "Kestrel in Production at Papertrail"
-        url: http://blog.scoutapp.com/articles/2012/08/15/kestrel-monitoring
-      - text: "Misleading Title About Queueing"
-        url: http://www.railstips.org/blog/archives/2012/03/05/misleading-title-about-queueing/
-      - text: "Don't Forget About the Kestrel Messaging Queue"
-        url: http://java.dzone.com/articles/dont-forget-about-kestrel
   siberite:
     name: Siberite
     summary: "Simple, lightweight, leveldb backed message queue"
