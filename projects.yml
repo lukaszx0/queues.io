@@ -193,6 +193,8 @@ popular:
         url: http://www.slideshare.net/mumrah/kafka-talk-tri-hug
       - text: "Intra-cluster Replication in Apache Kafka"
         url: "http://engineering.linkedin.com/kafka/intra-cluster-replication-apache-kafka"
+      - text: "Implementing a traditional message queue on top of Kafka: selective acknowledgments"
+        url: "https://github.com/softwaremill/kmq"
   kue:
     name: Kue
     url: https://github.com/Automattic/kue
