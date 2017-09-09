@@ -541,3 +541,16 @@ popular:
         url: https://engineering.groupon.com/2013/hornetq/building-a-distributed-messaging-system/
       - text: "Reliable Distributed Messaging with HornetQ"
         url: http://www.jboss.org/dms/judcon/2013unitedstates/presentations/judcon2013_day3track1session5.pdf
+  bull:
+    name: Bull
+    summary: "A NodeJS persistent job and message queue based on Redis"
+    url: https://github.com/OptimalBits/bull
+    tags:
+      - nodejs
+      - redis
+      - priority
+    links:
+      - text: "Implementing a Job Queue with Node.js"
+        url: https://medium.com/node-js-tips-tricks/implementing-a-job-queue-with-node-js-ffcfbc824b01
+      - text: "Arena: an open-source UI for Bull/Bee queues"
+        url: https://mixmax.com/blog/introducing-bull-arena
