@@ -541,3 +541,16 @@ popular:
         url: https://engineering.groupon.com/2013/hornetq/building-a-distributed-messaging-system/
       - text: "Reliable Distributed Messaging with HornetQ"
         url: http://www.jboss.org/dms/judcon/2013unitedstates/presentations/judcon2013_day3track1session5.pdf
+  dramatiq:
+    name: dramatiq
+    summary: "A distributed task processing library for Python with a focus on simplicity, reliability and performance."
+    url: http://dramatiq.io
+    tags:
+      - python
+      - rabbitmq
+      - redis
+      - priority
+      - lock
+    links:
+      - text: "Source on GitHub"
+        url: https://github.com/Bogdanp/dramatiq
