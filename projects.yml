@@ -541,3 +541,14 @@ popular:
         url: https://engineering.groupon.com/2013/hornetq/building-a-distributed-messaging-system/
       - text: "Reliable Distributed Messaging with HornetQ"
         url: http://www.jboss.org/dms/judcon/2013unitedstates/presentations/judcon2013_day3track1session5.pdf
+  faktory:
+    name: Faktory
+    summary: "Language-agnostic, persistent background job system."
+    url: https://github.com/contribsys/faktory
+    tags:
+      - go
+      - ruby
+      - rocksdb
+    links:
+      - text: "Introducing Faktory"
+        url: http://www.mikeperham.com/2017/10/24/introducing-faktory/
