@@ -52,6 +52,19 @@ popular:
         url: https://github.com/phstc/shoryuken
       - text: "Zend Framework with SQS Adapter (PHP)"
         url: http://framework.zend.com/manual/1.12/ru/zend.service.amazon.sqs.html
+  amazon_mq:
+    name: Amazon MQ
+    url: http://aws.amazon.com/amazon-mq/
+    summary: "Amazon MQ is a managed message broker service for Apache ActiveMQ that makes it easy to set up and operate message brokers in the cloud."
+    tags:
+      - service
+    links:
+      - text: "What is Amazon MQ?"
+        url: https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/welcome.html    
+      - text: "Introducing Amazon MQ"
+        url: https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-mq/
+      - test: "Amazon MQ – Managed Message Broker Service for ActiveMQ" 
+        url: https://aws.amazon.com/blogs/aws/amazon-mq-managed-message-broker-service-for-activemq/        
   apollo:
     name: Apollo
     url: http://activemq.apache.org/apollo/
