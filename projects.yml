@@ -560,3 +560,30 @@ popular:
     links:
       - text: "Introducing Faktory"
         url: http://www.mikeperham.com/2017/10/24/introducing-faktory/
+  pulsar:
+    name: Apache Pulsar
+    url: https://pulsar.apache.org/
+    summary: "Apache Pulsar is an open-source distributed pub-sub messaging system."
+    tags:
+      - java
+      - scala
+      - python
+      - C++
+      - high-throughput
+      - geo-relication
+      - low-latency
+      - multi-tenancy
+      - horizontal-scalability
+    links:
+      - text: "Getting Started"
+        url: https://pulsar.apache.org/docs/latest/getting-started/LocalCluster/
+      - text: "Concept and architecture"
+        url: https://pulsar.apache.org/docs/latest/getting-started/ConceptsAndArchitecture/
+      - text: "Multi-tenant messaging with Apache Pulsar"
+        url: https://streaml.io/blog/multi-tenant-messaging-with-apache-pulsar/
+      - text: "Pulsar segment based architecture"
+        url: https://streaml.io/blog/pulsar-segment-based-architecture/
+      - text: "Github Source"
+        url: https://github.com/apache/incubator-pulsar
+      - text: "Latest version in Maven Central"
+        url: https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.apache.pulsar%22
