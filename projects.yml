@@ -308,6 +308,7 @@ popular:
       - Fast growing community
     tags:
       - ruby
+      - crystal
       - redis
     links:
       - text: "Asynchronous Processing for Fun and Profit by Mike Perham"
