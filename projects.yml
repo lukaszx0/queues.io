@@ -187,6 +187,15 @@ popular:
         url: http://www.quora.com/Beanstalk-work-queue/What-are-the-advantages-and-disadvantages-of-Beanstalkd-as-a-work-queue
       - text: "Beanstalk Messaging Queue"
         url: http://nubyonrails.com/articles/about-this-blog-beanstalk-messaging-queue
+  beanstalkg:
+    name: Beanstalkg
+    url: https://github.com/vimukthi-git/beanstalkg/pulls
+    summary: "Beanstalkg is a reimplementation of beanstalkd in Go."
+    tags:
+      - go
+    links:
+      - text: "Queue Story 1 — Introduction to Beanstalkg"
+        url: https://vimukthi.com/queue-story-1-introduction-to-beanstalkg-3f60ecbd6477
   kafka:
     name: Apache Kafka
     url: http://kafka.apache.org/
