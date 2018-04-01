@@ -560,3 +560,14 @@ popular:
     links:
       - text: "Introducing Faktory"
         url: http://www.mikeperham.com/2017/10/24/introducing-faktory/
+  goworker:
+    name: Goworker
+    summary: "goworker is a Go-based background worker that runs 10 to 100,000* times faster than Ruby-based workers."
+    url: https://www.goworker.org/
+    tags:
+      - go
+      - ruby
+      - redis
+    links:
+      - text: "Goworker Examples"
+        url: https://github.com/benmanns/goworker-examples
