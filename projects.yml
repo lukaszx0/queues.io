@@ -4,35 +4,38 @@ popular:
     url: https://nats.io
     summary: "NATS is an open-source, high-performance, lightweight cloud messaging system."
     tags:
-      - go
-      - .NET
-      - node
-      - nginx
-      - java
-      - ruby
-      - python
-      - scala
-    links:
-      - text: "NATS Documentation"
-        url: http://nats.io/documentation/
-      - text: "NATS: High Performance Cloud Native Messaging Written in Go"
-        url: https://blog.gopheracademy.com/advent-2015/nats-high-performance-cloud-native-messaging-written-in-go/
-      - text: "Using NATS instead of HTTP for inter service communication"
-        url: http://www.diogogmt.com/2016/02/08/benchmarking-nats-and-rest/
-      - text: "Benchmarking Message Queue Latency"
-        url: http://bravenewgeek.com/benchmarking-message-queue-latency/
-      - text: "Dissecting Message Queues"
-        url: http://www.bravenewgeek.com/dissecting-message-queues/
-      - text: "Introducing NATS"
-        url: https://www.apcera.com/blog/introducing-nats/
-      - text: "CloudFoundry Messaging System"
-        url: http://docs.cloudfoundry.org/concepts/architecture/messaging-nats.html
-      - text: "Why CloudFoundry uses NATS"
-        url: http://www.quora.com/Why-does-CloudFoundry-use-NATS-a-specially-written-messaging-system-whereas-OpenStack-uses-AMQP/answer/Derek-Collison
-      - text: "NATS Node.js client on NPM"
-        url: https://www.npmjs.com/package/nats
-      - text: "Gnatsd Docker Image"
-        url: https://registry.hub.docker.com/u/apcera/gnatsd/
+          - go
+          - C#
+          - .NET
+          - node
+          - nginx
+          - java
+          - ruby
+          - python
+          - scala
+        links:
+          - text: "NATS Documentation"
+            url: http://nats.io/documentation/
+          - text: "CNCF to Host NATS"
+            url: https://www.cncf.io/blog/2018/03/15/cncf-to-host-nats/
+          - text: "KubeCon + CloudNativeCon | NATS Intro"
+            url: https://schd.ws/hosted_files/kccnceu18/e0/KubeCon%20EU%20NATS%20Intro%20v2.pdf
+          - text: "KubeCon + CloudNativeCon | NATS Deep Dive"
+            url: https://schd.ws/hosted_files/kccnceu18/e8/KubeCon%20EU%20-%20NATS%20Deep%20Dive.pdf
+          - text: "The Zen of High Performance Messaging with NATS"
+            url: https://www.youtube.com/watch?v=dYrYCt2dTkw
+          - text: "NATS: High Performance Cloud Native Messaging Written in Go"
+            url: https://blog.gopheracademy.com/advent-2015/nats-high-performance-cloud-native-messaging-written-in-go/
+          - text: "Using NATS instead of HTTP for inter service communication"
+            url: https://www.slideshare.net/nats_io/nats-vs-http-for-interservice-communication
+          - text: "Benchmarking Message Queue Latency"
+            url: http://bravenewgeek.com/benchmarking-message-queue-latency/
+          - text: "Dissecting Message Queues"
+            url: http://www.bravenewgeek.com/dissecting-message-queues/
+          - text: "Cloud Foundry Messaging System"
+            url: http://docs.cloudfoundry.org/concepts/architecture/messaging-nats.html
+          - text: "Why CloudFoundry uses NATS"
+            url: http://www.quora.com/Why-does-CloudFoundry-use-NATS-a-specially-written-messaging-system-whereas-OpenStack-uses-AMQP/answer/Derek-Collison
   amazon_simple_queue_service:
     name: Amazon Simple Queue Service (SQS)
     url: http://aws.amazon.com/sqs/
