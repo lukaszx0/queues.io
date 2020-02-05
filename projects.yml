@@ -33,6 +33,27 @@ popular:
         url: https://www.npmjs.com/package/nats
       - text: "Gnatsd Docker Image"
         url: https://registry.hub.docker.com/u/apcera/gnatsd/
+  azure_service_bus:
+    name: Azure Service Bus
+    url: https://azure.microsoft.com/services/service-bus/
+    summary: "Azure Service Bus is Azure's fully managed Enterprise Messaging as a Service offering that provides familiar point-to-point and pub-sub semantics with Queues and Topics-Subscriptions over familiar AMQP protocol."
+    tags:
+      - service
+      - amqp
+      - .NET
+      - Java
+      - Queues
+      - Topics
+      - Subscriptions
+      - Cloud
+      - PaaS
+    links:
+      - text: "Azure Service Bus Messaging Documentation"
+        url: https://docs.microsoft.com/azure/service-bus-messaging/
+      - text: "What is Service Bus?"
+        url: https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview
+      - text: "Compare Azure Service Bus pricing tiers"
+        url: https://docs.microsoft.com/azure/service-bus-messaging/service-bus-premium-messaging
   amazon_simple_queue_service:
     name: Amazon Simple Queue Service (SQS)
     url: http://aws.amazon.com/sqs/
