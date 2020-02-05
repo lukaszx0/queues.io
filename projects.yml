@@ -40,8 +40,6 @@ popular:
     tags:
       - service
       - amqp
-      - .NET
-      - Java
       - Queues
       - Topics
       - Subscriptions
